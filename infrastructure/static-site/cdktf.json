@@ -1,0 +1,10 @@
+{
+  "app": "pnpx ts-node main.ts",
+  "language": "typescript",
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  },
+  "projectId": "859219b0-5dfe-4839-a68c-1e412bd15031",
+  "sendCrashReports": "false"
+}

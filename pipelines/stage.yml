@@ -1,0 +1,28 @@
+version: 0.2
+
+env:
+  parameter-store:
+    TF_TOKEN_app_terraform_io: '/terraform/token'
+  variables:
+    TARGET_DIR: 'infrastructure/static-site/cdktf.out/stacks/staging'
+    WEBSITE_DIR: 'frontend/website/public'
+    TF_CLI_CONFIG_FILE: '.terraformrc'
+    TF_IN_AUTOMATION: 'true'
+  git-credential-helper: yes
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18.x
+    commands:
+      - wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+      - echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+      - sudo apt update && sudo apt install terraform
+  pre_build:
+    commands:
+      - printf 'credentials "app.terraform.io" {\n token = "%s"\n}' "$TF_TOKEN_app_terraform_io" > $TF_CLI_CONFIG_FILE
+      - terraform --version
+  build:
+    commands:
+      - cd $TARGET_DIR
+
