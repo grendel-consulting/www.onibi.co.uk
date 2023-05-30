@@ -1,0 +1,11 @@
+{
+  "name": "tsconfig",
+  "author": "James Ramirez",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "base.json"
+  ]
+}

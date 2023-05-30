@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-custom",
+  "author": "James Ramirez",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "8.39.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-config-turbo": "1.9.9"
+  },
+  "devDependencies": {
+    "typescript": "5.0.4"
+  }
+}

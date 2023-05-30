@@ -1,0 +1,40 @@
+{
+  "name": "www.onibi.co.uk",
+  "description": "Brochureware site for Onibi imprint",
+  "author": "James Ramirez",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "start": "turbo run start",
+    "synth": "turbo run synth",
+    "format": "prettier  --ignore-path .gitignore --write \"**/*.{json,ts,tsx,md}\"",
+    "ci": "turbo run ci"
+  },
+  "devDependencies": {
+    "esbuild": "0.17.19",
+    "eslint-config-custom": "workspace:*",
+    "prettier": "2.8.8",
+    "turbo": "1.9.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "pnpm@8.6.0",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  }
+}
