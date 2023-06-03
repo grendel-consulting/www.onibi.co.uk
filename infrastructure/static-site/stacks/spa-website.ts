@@ -27,6 +27,7 @@ const SpaWebsiteConfig = z.object({
   region: z.string(),
   target: z.string(),
   restricted: z.boolean().optional(),
+  includeApex: z.boolean().optional(),
 });
 
 export type SpaWebsiteConfigType = z.infer<typeof SpaWebsiteConfig>;
@@ -43,6 +44,7 @@ export class SpaWebsite extends TerraformStack {
     const reportingEndpoint = "https://hrothgar.uriports.com/reports";
 
     const isRestricted = props.restricted ?? false;
+    const includeApex = props.includeApex ?? false;
 
     new CloudBackend(this, {
       hostname: "app.terraform.io",
@@ -83,7 +85,7 @@ export class SpaWebsite extends TerraformStack {
     const certificate = new AcmCertificate(this, "certificate", {
       provider: cloudfrontProvider,
       domainName: targetDomain,
-      subjectAlternativeNames: [props.apexDomain],
+      subjectAlternativeNames: includeApex ? [props.apexDomain] : [],
       validationMethod: "DNS",
     });
 
@@ -181,7 +183,6 @@ export class SpaWebsite extends TerraformStack {
       "font-src 'self' data:",
       "connect-src 'self'",
       "worker-src 'self'",
-      "prefetch-src 'self'",
       "form-action 'self'",
       "object-src 'none'",
       "frame-ancestors 'none'",
@@ -245,17 +246,17 @@ export class SpaWebsite extends TerraformStack {
               override: true,
             },
             {
-              header: "Permissions-Policy-Report-Only",
+              header: "Permissions-Policy",
               value: "fullscreen=(self)",
               override: true,
             },
             {
-              header: "Cross-Origin-Embedder-Policy-Report-Only",
+              header: "Cross-Origin-Embedder-Policy",
               value: "require-corp; report-to='default'",
               override: true,
             },
             {
-              header: "Cross-Origin-Opener-Policy-Report-Only",
+              header: "Cross-Origin-Opener-Policy",
               value: "same-origin; report-to='default'",
               override: true,
             },
@@ -322,18 +323,19 @@ export class SpaWebsite extends TerraformStack {
       },
     });
 
-    new Route53Record(this, "apex", {
-      provider: controlPlaneProvider,
-      zoneId: existingZone.zoneId,
-      name: props.apexDomain,
-      type: "A",
-      alias: {
-        name: distribution.domainName,
-        zoneId: distribution.hostedZoneId,
-        evaluateTargetHealth: false,
-      },
-    });
-
+    if (includeApex) {
+      new Route53Record(this, "apex", {
+        provider: controlPlaneProvider,
+        zoneId: existingZone.zoneId,
+        name: props.apexDomain,
+        type: "A",
+        alias: {
+          name: distribution.domainName,
+          zoneId: distribution.hostedZoneId,
+          evaluateTargetHealth: false,
+        },
+      });
+    }
     new TerraformOutput(this, "cname", {
       value: targetDomain,
     });
@@ -342,7 +344,7 @@ export class SpaWebsite extends TerraformStack {
       value: bucket.bucket,
     });
 
-    new TerraformOutput(this, "cloudfont_distribution", {
+    new TerraformOutput(this, "cloudfront_distribution", {
       value: distribution.id,
     });
 
