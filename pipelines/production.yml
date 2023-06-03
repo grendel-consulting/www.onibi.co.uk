@@ -21,11 +21,11 @@ phases:
       - sudo apt update && sudo apt install terraform
   pre_build:
     commands:
-      - printf 'credentials "app.terraform.io" {\n token = "%s"\n}' "$TF_TOKEN_app_terraform_io" > $TF_CLI_CONFIG_FILE
       - terraform --version
   build:
     commands:
       - cd $TARGET_DIR
+      - printf 'credentials "app.terraform.io" {\n token = "%s"\n}' "$TF_TOKEN_app_terraform_io" > $TF_CLI_CONFIG_FILE
       - terraform init -input=false
       - terraform validate
       - terraform apply -input=false -auto-approve
