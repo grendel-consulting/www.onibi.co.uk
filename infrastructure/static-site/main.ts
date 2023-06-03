@@ -17,11 +17,11 @@ if (staging === undefined || production === undefined) {
 
 new SpaWebsite(stacks, "staging", {
   ...commonConfig,
-  ...{ subDomain: "staging-www", target: staging, restricted: false },
+  ...{ subDomain: "staging-www", target: staging, restricted: true },
 });
 new SpaWebsite(stacks, "production", {
   ...commonConfig,
-  ...{ subDomain: "www", target: production },
+  ...{ subDomain: "www", target: production, includeApex: true },
 });
 
 stacks.synth();

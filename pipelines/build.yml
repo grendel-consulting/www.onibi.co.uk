@@ -29,4 +29,4 @@ artifacts:
   files:
     - 'frontend/**/public/**/*'
     - 'infrastructure/**/cdktf.out/**/*'
-    - 'pipelines/stage.yml'
+    - 'pipelines/*.yml'

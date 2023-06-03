@@ -7,7 +7,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <main className={styles.page}>
       <h1 className={styles.heading}>Onibi</h1>
       <p className={styles.paragraph}>
-        We are working behind the scenes.
+        We are working behind the scenes on something special.
       </p>
       <footer className={styles.footer}>
         <p>
