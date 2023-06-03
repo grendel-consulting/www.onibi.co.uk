@@ -168,7 +168,7 @@ export class SpaWebsite extends TerraformStack {
           queryStringBehavior: "none",
         },
       },
-      minTtl: 0,
+      minTtl: 60,
       defaultTtl: 86400,
       maxTtl: 31536000,
     });
@@ -258,6 +258,11 @@ export class SpaWebsite extends TerraformStack {
             {
               header: "Cross-Origin-Opener-Policy",
               value: "same-origin; report-to='default'",
+              override: true,
+            },
+            {
+              header: "Cross-Origin-Resource-Policy",
+              value: "same-site",
               override: true,
             },
           ],
