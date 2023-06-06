@@ -30,8 +30,8 @@ importers:
         specifier: 1.2.0
         version: 1.2.0
       '@vanilla-extract/css':
-        specifier: 1.11.0
-        version: 1.11.0
+        specifier: 1.11.1
+        version: 1.11.1
       '@vanilla-extract/webpack-plugin':
         specifier: 2.2.0
         version: 2.2.0(@types/node@18.16.16)(webpack@5.84.1)
@@ -55,7 +55,7 @@ importers:
         version: 6.10.0(gatsby@5.10.0)(react-dom@18.2.0)(react@18.2.0)
       gatsby-plugin-vanilla-extract:
         specifier: 4.0.1
-        version: 4.0.1(@vanilla-extract/css@1.11.0)(@vanilla-extract/webpack-plugin@2.2.0)(gatsby@5.10.0)
+        version: 4.0.1(@vanilla-extract/css@1.11.1)(@vanilla-extract/webpack-plugin@2.2.0)(gatsby@5.10.0)
       gatsby-source-filesystem:
         specifier: 5.10.0
         version: 5.10.0(gatsby@5.10.0)
@@ -3594,14 +3594,14 @@ packages:
       - supports-color
     dev: false
 
-  /@vanilla-extract/css@1.11.0:
-    resolution: {integrity: sha512-uohj+8cGWbnrVzTfrjlJeXqdGjH3d3TcscdQxKe3h5bb5QQXTpPSq+c+SeWADIGiZybzcW0CBvZV8jsy1ywY9w==}
+  /@vanilla-extract/css@1.11.1:
+    resolution: {integrity: sha512-iLalh4K4sXgkfzsiFUsiek4IY1/N4jtJKdr1ubpyszPE7W7G2v+DAl8KcmKkRA6vS7k5mFNW34e4fNki6T2cbQ==}
     dependencies:
       '@emotion/hash': 0.9.1
       '@vanilla-extract/private': 1.0.3
       ahocorasick: 1.0.2
       chalk: 4.1.2
-      css-what: 5.1.0
+      css-what: 6.1.0
       cssesc: 3.0.0
       csstype: 3.1.2
       deep-object-diff: 1.1.9
@@ -3613,7 +3613,7 @@ packages:
   /@vanilla-extract/integration@5.0.1:
     resolution: {integrity: sha512-HRV/HvC/lihb9wT3x5s7pf5qLjqxSd9nBePJ10juOuMB5cl2ZClEcts076m9BuRKM3wRK2h7KuwkNsaUtjujxQ==}
     dependencies:
-      '@vanilla-extract/css': 1.11.0
+      '@vanilla-extract/css': 1.11.1
       esbuild: 0.11.23
       eval: 0.1.6
       find-up: 5.0.0
@@ -3628,7 +3628,7 @@ packages:
       '@babel/core': 7.22.1
       '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.22.1)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.3
-      '@vanilla-extract/css': 1.11.0
+      '@vanilla-extract/css': 1.11.1
       esbuild: 0.17.6
       eval: 0.1.6
       find-up: 5.0.0
@@ -5124,11 +5124,6 @@ packages:
     dependencies:
       mdn-data: 2.0.14
       source-map: 0.6.1
-
-  /css-what@5.1.0:
-    resolution: {integrity: sha512-arSMRWIIFY0hV8pIxZMEfmMI47Wj3R/aWpZDDxWYCPEiOMv6tfOrnpDtgxBYPEQD4V0Y/958+1TdC3iWTFcUPw==}
-    engines: {node: '>= 6'}
-    dev: false
 
   /css-what@6.1.0:
     resolution: {integrity: sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==}
@@ -6980,14 +6975,14 @@ packages:
       joi: 17.9.2
       mime: 3.0.0
 
-  /gatsby-plugin-vanilla-extract@4.0.1(@vanilla-extract/css@1.11.0)(@vanilla-extract/webpack-plugin@2.2.0)(gatsby@5.10.0):
+  /gatsby-plugin-vanilla-extract@4.0.1(@vanilla-extract/css@1.11.1)(@vanilla-extract/webpack-plugin@2.2.0)(gatsby@5.10.0):
     resolution: {integrity: sha512-j8zsyg/vnsgQPEJmun4d4FYtKqVqnoeC8f6kSUZNohPkjLD8aCHCyDjJzHrsc1Th6I+SiFXkGyHIdK8ZAX0RkQ==}
     peerDependencies:
       '@vanilla-extract/css': ^1.0.0
       '@vanilla-extract/webpack-plugin': ^2.2.0
       gatsby: ^4.0.0 || ^5.0.0
     dependencies:
-      '@vanilla-extract/css': 1.11.0
+      '@vanilla-extract/css': 1.11.1
       '@vanilla-extract/webpack-plugin': 2.2.0(@types/node@18.16.16)(webpack@5.84.1)
       gatsby: 5.10.0(babel-eslint@10.1.0)(esbuild@0.17.19)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.3)
     dev: false
