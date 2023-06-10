@@ -92,13 +92,13 @@ importers:
     dependencies:
       '@cdktf/provider-aws':
         specifier: 14.0.4
-        version: 14.0.4(cdktf@0.16.3)(constructs@10.2.47)
+        version: 14.0.4(cdktf@0.16.3)(constructs@10.2.48)
       cdktf:
         specifier: 0.16.3
-        version: 0.16.3(constructs@10.2.47)
+        version: 0.16.3(constructs@10.2.48)
       constructs:
-        specifier: 10.2.47
-        version: 10.2.47
+        specifier: 10.2.48
+        version: 10.2.48
       zod:
         specifier: 3.21.4
         version: 3.21.4
@@ -1510,15 +1510,15 @@ packages:
     resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
 
-  /@cdktf/provider-aws@14.0.4(cdktf@0.16.3)(constructs@10.2.47):
+  /@cdktf/provider-aws@14.0.4(cdktf@0.16.3)(constructs@10.2.48):
     resolution: {integrity: sha512-/NGdzzVPvTchei/2O7AdId9WX3GequSQwlJ5wuAeMKCLlUBCqRPVU1ndsr48tkwvFdyefgK3Goh5/1xeiUOSdw==}
     engines: {node: '>= 16.14.0'}
     peerDependencies:
       cdktf: ^0.16.0
       constructs: ^10.0.0
     dependencies:
-      cdktf: 0.16.3(constructs@10.2.47)
-      constructs: 10.2.47
+      cdktf: 0.16.3(constructs@10.2.48)
+      constructs: 10.2.48
     dev: false
 
   /@cspotcode/source-map-support@0.8.1:
@@ -4589,13 +4589,13 @@ packages:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
     dev: false
 
-  /cdktf@0.16.3(constructs@10.2.47):
+  /cdktf@0.16.3(constructs@10.2.48):
     resolution: {integrity: sha512-rE+/RVDaLfZsQlJB/ATMhe226pFfIzOXMYWXqWmIEiHPZXlkbdUCVM2rmJNBWJdMvs58yWmDLwFrqg+HakjA6Q==}
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
       archiver: 5.3.1
-      constructs: 10.2.47
+      constructs: 10.2.48
       json-stable-stringify: 1.0.2
       semver: 7.5.1
     dev: false
@@ -4919,8 +4919,8 @@ packages:
       tslib: 2.4.1
       upper-case: 2.0.2
 
-  /constructs@10.2.47:
-    resolution: {integrity: sha512-gy1TBktMG31cN8IHT0BqXhVMjjhjr59f7U8a2TfKmirEfJKDrK0vwbGDm9lXWWzvDrNwBnNWSv7jQ8f8x/Ivuw==}
+  /constructs@10.2.48:
+    resolution: {integrity: sha512-fmIEjpcAsQcdRZYWMtvI2vSYrCqO52/Yy22lyR1QUlrOM6V24WQSZtO1fRNF1ywNW9CRNH3ycLL8IRiWOxxPPQ==}
     engines: {node: '>= 16.14.0'}
     dev: false
 
