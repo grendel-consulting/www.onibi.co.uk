@@ -40,7 +40,8 @@ export class SpaWebsite extends TerraformStack {
     const targetDomain = `${props.subDomain}.${props.apexDomain}`;
     const targetWorkspace = targetDomain.replaceAll(".", "-");
 
-    const originId = `s3-${targetDomain}`;
+    // For an S3 Origin, the OriginID SHOULD be the S3 Bucket name
+    const originId = targetDomain;
     const reportingEndpoint = "https://hrothgar.uriports.com/reports";
 
     const isRestricted = props.restricted ?? false;
@@ -142,8 +143,8 @@ export class SpaWebsite extends TerraformStack {
           resources: [`${bucket.arn}/*`],
           principals: [
             {
-              type: "CanonicalUser",
-              identifiers: [cloudfrontOai.s3CanonicalUserId],
+              type: "AWS",
+              identifiers: [cloudfrontOai.iamArn],
             },
           ],
         },
