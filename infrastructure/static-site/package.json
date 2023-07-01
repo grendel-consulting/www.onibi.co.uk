@@ -16,7 +16,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@cdktf/provider-aws": "16.0.1",
+    "@cdktf/provider-aws": "16.0.2",
     "cdktf": "0.17.0",
     "constructs": "10.2.65",
     "zod": "3.21.4"
