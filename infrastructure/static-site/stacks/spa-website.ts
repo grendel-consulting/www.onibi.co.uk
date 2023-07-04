@@ -281,7 +281,7 @@ export class SpaWebsite extends TerraformStack {
 
       viewerCertificate: {
         acmCertificateArn: certificate.arn,
-        minimumProtocolVersion: "TLSv1.2_2019",
+        minimumProtocolVersion: "TLSv1.2_2021",
         sslSupportMethod: "sni-only",
       },
 
