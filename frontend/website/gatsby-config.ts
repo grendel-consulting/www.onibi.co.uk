@@ -2,7 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `brochureware`,
+    title: `Onibi`,
+    description: `We are a security collaboration, an imprint of two consultancies.`,
     siteUrl: `https://www.onibi.co.uk`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
