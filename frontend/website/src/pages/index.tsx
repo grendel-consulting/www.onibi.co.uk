@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
+import SEO from "../molecules/seo";
 import * as styles from "../styles/site.css";
 
 const IndexPage: React.FC<PageProps> = () => {
@@ -24,4 +25,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => <SEO/>;

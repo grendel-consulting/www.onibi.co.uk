@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link, HeadFC, PageProps } from "gatsby";
+import SEO from "../molecules/seo";
 import * as styles from "../styles/site.css";
 
 const NotFoundPage: React.FC<PageProps> = () => {
@@ -17,4 +18,4 @@ const NotFoundPage: React.FC<PageProps> = () => {
 
 export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Not found</title>;
+export const Head: HeadFC = () => <SEO title="Not Found"/>;
