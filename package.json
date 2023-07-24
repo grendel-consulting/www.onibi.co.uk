@@ -15,7 +15,7 @@
     "ci": "turbo run ci"
   },
   "devDependencies": {
-    "esbuild": "0.18.15",
+    "esbuild": "0.18.16",
     "eslint-config-custom": "workspace:*",
     "prettier": "3.0.0",
     "turbo": "1.10.9"
