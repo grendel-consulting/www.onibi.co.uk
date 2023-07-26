@@ -18,7 +18,7 @@
     "esbuild": "0.18.16",
     "eslint-config-custom": "workspace:*",
     "prettier": "3.0.0",
-    "turbo": "1.10.9"
+    "turbo": "1.10.12"
   },
   "browserslist": {
     "production": [
