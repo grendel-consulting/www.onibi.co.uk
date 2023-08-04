@@ -17,7 +17,7 @@
   "devDependencies": {
     "esbuild": "0.18.17",
     "eslint-config-custom": "workspace:*",
-    "prettier": "3.0.0",
+    "prettier": "3.0.1",
     "turbo": "1.10.12"
   },
   "browserslist": {
