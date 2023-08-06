@@ -3,6 +3,7 @@
   "extends": ["config:base", "schedule:nonOfficeHours"],
   "packageRules": [
     {
+      "groupName": "types-and-linters",
       "matchDepTypes": ["devDependencies"],
       "matchPackagePatterns": ["@types", "lint", "prettier"],
       "automerge": true
