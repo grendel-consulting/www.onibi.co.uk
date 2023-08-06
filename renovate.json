@@ -1,6 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", "schedule:nonOfficeHours"],
+  "packageRules": [
+    {
+      "groupName": "types-and-linters",
+      "matchDepTypes": ["devDependencies"],
+      "matchPackagePatterns": ["@types", "lint", "prettier"],
+      "automerge": true
+    }
+  ],
   "timezone": "Europe/London",
   "vulnerabilityAlerts": {
     "labels": ["security"],
