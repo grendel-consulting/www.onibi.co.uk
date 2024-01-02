@@ -54,8 +54,8 @@ importers:
         specifier: 6.13.0
         version: 6.13.0(gatsby@5.13.1)(react-dom@18.2.0)(react@18.2.0)
       gatsby-plugin-vanilla-extract:
-        specifier: 4.0.1
-        version: 4.0.1(@vanilla-extract/css@1.14.0)(@vanilla-extract/webpack-plugin@2.3.1)(gatsby@5.13.1)
+        specifier: 4.0.2
+        version: 4.0.2(@vanilla-extract/css@1.14.0)(@vanilla-extract/webpack-plugin@2.3.1)(gatsby@5.13.1)
       gatsby-source-filesystem:
         specifier: 5.13.0
         version: 5.13.0(gatsby@5.13.1)
@@ -8313,8 +8313,8 @@ packages:
       joi: 17.9.2
       mime: 3.0.0
 
-  /gatsby-plugin-vanilla-extract@4.0.1(@vanilla-extract/css@1.14.0)(@vanilla-extract/webpack-plugin@2.3.1)(gatsby@5.13.1):
-    resolution: {integrity: sha512-j8zsyg/vnsgQPEJmun4d4FYtKqVqnoeC8f6kSUZNohPkjLD8aCHCyDjJzHrsc1Th6I+SiFXkGyHIdK8ZAX0RkQ==}
+  /gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.14.0)(@vanilla-extract/webpack-plugin@2.3.1)(gatsby@5.13.1):
+    resolution: {integrity: sha512-Z754FBnANy1zVpHBg46tjy9CPyp+Hwqj3qONg5aItuBb5SKvZrJnqrXF4/mmXdMO2ZBLcvJQqGHCN1VPlVC6Yg==}
     peerDependencies:
       '@vanilla-extract/css': ^1.0.0
       '@vanilla-extract/webpack-plugin': ^2.2.0
