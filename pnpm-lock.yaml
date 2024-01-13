@@ -91,8 +91,8 @@ importers:
   infrastructure/static-site:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 19.0.0
-        version: 19.0.0(cdktf@0.20.0)(constructs@10.3.0)
+        specifier: 19.1.1
+        version: 19.1.1(cdktf@0.20.0)(constructs@10.3.0)
       cdktf:
         specifier: 0.20.0
         version: 0.20.0(constructs@10.3.0)
@@ -2144,8 +2144,8 @@ packages:
     resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
 
-  /@cdktf/provider-aws@19.0.0(cdktf@0.20.0)(constructs@10.3.0):
-    resolution: {integrity: sha512-6z+rweCWMHgxbGC2a8wpUM4uHzPowbhOPZHQl3pPF7fHnDhJkhoFwSLZyC4XDTjpeX92222ens91DmQHB5+xLg==}
+  /@cdktf/provider-aws@19.1.1(cdktf@0.20.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-LZVa54dnrisHJFW2Wt54s4Hey/ZIwcseAjk4pskqbeEq1Xa/leiZmnbJPjj64M7RvNafHkMFVnoy/DpyobMHvA==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
