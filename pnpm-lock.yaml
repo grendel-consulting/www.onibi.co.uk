@@ -92,10 +92,10 @@ importers:
     dependencies:
       '@cdktf/provider-aws':
         specifier: 19.1.1
-        version: 19.1.1(cdktf@0.20.0)(constructs@10.3.0)
+        version: 19.1.1(cdktf@0.20.1)(constructs@10.3.0)
       cdktf:
-        specifier: 0.20.0
-        version: 0.20.0(constructs@10.3.0)
+        specifier: 0.20.1
+        version: 0.20.1(constructs@10.3.0)
       constructs:
         specifier: 10.3.0
         version: 10.3.0
@@ -2144,14 +2144,14 @@ packages:
     resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
 
-  /@cdktf/provider-aws@19.1.1(cdktf@0.20.0)(constructs@10.3.0):
+  /@cdktf/provider-aws@19.1.1(cdktf@0.20.1)(constructs@10.3.0):
     resolution: {integrity: sha512-LZVa54dnrisHJFW2Wt54s4Hey/ZIwcseAjk4pskqbeEq1Xa/leiZmnbJPjj64M7RvNafHkMFVnoy/DpyobMHvA==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
       constructs: ^10.3.0
     dependencies:
-      cdktf: 0.20.0(constructs@10.3.0)
+      cdktf: 0.20.1(constructs@10.3.0)
       constructs: 10.3.0
     dev: false
 
@@ -5713,8 +5713,8 @@ packages:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
     dev: false
 
-  /cdktf@0.20.0(constructs@10.3.0):
-    resolution: {integrity: sha512-4bCG1/7cYYGyiC++zxJ5wPUZVuxeXvZLY2BqE9heTV/PZtlcwUrV6wfUMtQFbYTCssCEJDnGrOe7Rw1Jf0Sf2w==}
+  /cdktf@0.20.1(constructs@10.3.0):
+    resolution: {integrity: sha512-+ypYzWrC0g+GN5Z6/tPQq4JNh8CVUxNP6rR1ANSHVU0E//GhRUAftxcPxSQh5uLPsJAsvw9dfZFEWSue0p2ekA==}
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
@@ -5820,7 +5820,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
 
   /chownr@1.1.4:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
@@ -7768,19 +7768,11 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    optional: true
-
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
-    dev: false
     optional: true
 
   /function-bind@1.1.2:
@@ -9556,7 +9548,7 @@ packages:
       micromatch: 4.0.5
       walker: 1.0.8
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /jest-leak-detector@29.7.0:
