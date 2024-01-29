@@ -33,8 +33,8 @@ importers:
         specifier: 1.14.1
         version: 1.14.1
       '@vanilla-extract/webpack-plugin':
-        specifier: 2.3.3
-        version: 2.3.3(@types/node@20.11.10)(webpack@5.88.2)
+        specifier: 2.3.4
+        version: 2.3.4(@types/node@20.11.10)(webpack@5.88.2)
       gatsby:
         specifier: 5.13.3
         version: 5.13.3(babel-eslint@10.1.0)(esbuild@0.20.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
@@ -55,7 +55,7 @@ importers:
         version: 6.13.1(gatsby@5.13.3)(react-dom@18.2.0)(react@18.2.0)
       gatsby-plugin-vanilla-extract:
         specifier: 4.0.2
-        version: 4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.3)(gatsby@5.13.3)
+        version: 4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.4)(gatsby@5.13.3)
       gatsby-source-filesystem:
         specifier: 5.13.1
         version: 5.13.1(gatsby@5.13.3)
@@ -4788,8 +4788,8 @@ packages:
       outdent: 0.8.0
     dev: false
 
-  /@vanilla-extract/integration@6.3.0(@types/node@20.11.10):
-    resolution: {integrity: sha512-xp/0bdt/GOa7nLDwQ+vBOAG376MOesPhItxRGtuMvo9BLA8vrm2KcKHrKsJTuIl7tfnpuBW5raP6hXcg/oRB3w==}
+  /@vanilla-extract/integration@6.4.0(@types/node@20.11.10):
+    resolution: {integrity: sha512-yl2iKArGUCsIxtfOeOu3ki+YyIZ6c+uKy/AJv3e+oqmZatzSNv0EPVLk6lUUZcHKJyZNdcPXV3GDYWd/3OE7xg==}
     dependencies:
       '@babel/core': 7.22.1
       '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.22.1)
@@ -4800,7 +4800,7 @@ packages:
       find-up: 5.0.0
       javascript-stringify: 2.1.0
       lodash: 4.17.21
-      mlly: 1.3.0
+      mlly: 1.5.0
       outdent: 0.8.0
       vite: 5.0.11(@types/node@20.11.10)
       vite-node: 1.2.1(@types/node@20.11.10)
@@ -4819,12 +4819,12 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: false
 
-  /@vanilla-extract/webpack-plugin@2.3.3(@types/node@20.11.10)(webpack@5.88.2):
-    resolution: {integrity: sha512-fiJ9gXCnrGsBy28S/iZth9gdBBa8t2EgMqzSFRtsL1X06FC/gF1b7yFNeIAdP3NTy2c4aJnfumH29TYnK3lC9Q==}
+  /@vanilla-extract/webpack-plugin@2.3.4(@types/node@20.11.10)(webpack@5.88.2):
+    resolution: {integrity: sha512-xYldP6Tte4rv5aYWQqfbKQsDAHVln6+XAVEXdvdr/2Jz59AWYEu69DgbOtWjXDjzP/sRh30IKmbfyahlLkmmrw==}
     peerDependencies:
       webpack: ^4.30.0 || ^5.20.2
     dependencies:
-      '@vanilla-extract/integration': 6.3.0(@types/node@20.11.10)
+      '@vanilla-extract/integration': 6.4.0(@types/node@20.11.10)
       chalk: 4.1.2
       debug: 4.3.4
       loader-utils: 2.0.4
@@ -4993,6 +4993,12 @@ packages:
     resolution: {integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+
+  /acorn@8.11.3:
+    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: false
 
   /acorn@8.9.0:
     resolution: {integrity: sha512-jaVNAFBHNLXspO543WnNNPZFRtavh3skAkITqD0/2aeMkKZTN+254PyhwxFYrk3vQ1xfY+2wbesJMs/JC8/PwQ==}
@@ -8134,7 +8140,7 @@ packages:
       joi: 17.9.2
       mime: 3.0.0
 
-  /gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.3)(gatsby@5.13.3):
+  /gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.4)(gatsby@5.13.3):
     resolution: {integrity: sha512-Z754FBnANy1zVpHBg46tjy9CPyp+Hwqj3qONg5aItuBb5SKvZrJnqrXF4/mmXdMO2ZBLcvJQqGHCN1VPlVC6Yg==}
     peerDependencies:
       '@vanilla-extract/css': ^1.0.0
@@ -8142,7 +8148,7 @@ packages:
       gatsby: ^4.0.0 || ^5.0.0
     dependencies:
       '@vanilla-extract/css': 1.14.1
-      '@vanilla-extract/webpack-plugin': 2.3.3(@types/node@20.11.10)(webpack@5.88.2)
+      '@vanilla-extract/webpack-plugin': 2.3.4(@types/node@20.11.10)(webpack@5.88.2)
       gatsby: 5.13.3(babel-eslint@10.1.0)(esbuild@0.20.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
     dev: false
 
@@ -10709,13 +10715,13 @@ packages:
     dependencies:
       minimist: 1.2.8
 
-  /mlly@1.3.0:
-    resolution: {integrity: sha512-HT5mcgIQKkOrZecOjOX3DJorTikWXwsBfpcr/MGBkhfWcjiqvnaL/9ppxvIUXfjT6xt4DVIAsN9fMUz1ev4bIw==}
+  /mlly@1.5.0:
+    resolution: {integrity: sha512-NPVQvAY1xr1QoVeG0cy8yUYC7FQcOx6evl/RjT1wL5FvzPnzOysoqB/jmx/DhssT2dYa8nxECLAaFI/+gVLhDQ==}
     dependencies:
-      acorn: 8.9.0
+      acorn: 8.11.3
       pathe: 1.1.2
       pkg-types: 1.0.3
-      ufo: 1.1.2
+      ufo: 1.3.2
     dev: false
 
   /modern-ahocorasick@1.0.0:
@@ -11279,7 +11285,7 @@ packages:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
     dependencies:
       jsonc-parser: 3.2.0
-      mlly: 1.3.0
+      mlly: 1.5.0
       pathe: 1.1.2
     dev: false
 
@@ -13233,8 +13239,8 @@ packages:
   /ua-parser-js@0.7.35:
     resolution: {integrity: sha512-veRf7dawaj9xaWEu9HoTVn5Pggtc/qj+kqTOFvNiN1l0YdxwC1kvel57UCjThjGa3BHBihE8/UJAHI+uQHmd/g==}
 
-  /ufo@1.1.2:
-    resolution: {integrity: sha512-TrY6DsjTQQgyS3E3dBaOXf0TpPD8u9FVrVYmKVegJuFw51n/YB9XPt+U6ydzFG5ZIN7+DIjPbNmXoBj9esYhgQ==}
+  /ufo@1.3.2:
+    resolution: {integrity: sha512-o+ORpgGwaYQXgqGDwd+hkS4PuZ3QnmqMMxRuajK/a38L6fTpcE5GPIfrf+L/KemFzfUpeUQc1rRS1iDBozvnFA==}
     dev: false
 
   /unbox-primitive@1.0.2:
