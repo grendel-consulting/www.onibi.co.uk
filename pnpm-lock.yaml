@@ -33,8 +33,8 @@ importers:
         specifier: 1.14.1
         version: 1.14.1
       '@vanilla-extract/webpack-plugin':
-        specifier: 2.3.5
-        version: 2.3.5(@types/node@20.11.16)(webpack@5.88.2)
+        specifier: 2.3.6
+        version: 2.3.6(@types/node@20.11.16)(webpack@5.88.2)
       gatsby:
         specifier: 5.13.3
         version: 5.13.3(babel-eslint@10.1.0)(esbuild@0.20.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
@@ -55,7 +55,7 @@ importers:
         version: 6.13.1(gatsby@5.13.3)(react-dom@18.2.0)(react@18.2.0)
       gatsby-plugin-vanilla-extract:
         specifier: 4.0.2
-        version: 4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.5)(gatsby@5.13.3)
+        version: 4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.6)(gatsby@5.13.3)
       gatsby-source-filesystem:
         specifier: 5.13.1
         version: 5.13.1(gatsby@5.13.3)
@@ -4788,8 +4788,8 @@ packages:
       outdent: 0.8.0
     dev: false
 
-  /@vanilla-extract/integration@6.5.0(@types/node@20.11.16):
-    resolution: {integrity: sha512-E2YcfO8vA+vs+ua+gpvy1HRqvgWbI+MTlUpxA8FvatOvybuNcWAY0CKwQ/Gpj7rswYKtC6C7+xw33emM6/ImdQ==}
+  /@vanilla-extract/integration@7.0.0(@types/node@20.11.16):
+    resolution: {integrity: sha512-j5CV/5kUMWcvr6UjnJAsZ/DHr1JsL6+y6KyVvXD7kqvRpIy6IxD882ARcpvKyIcEYDmCo0XVQ4+dTr3LnsYEnQ==}
     dependencies:
       '@babel/core': 7.22.1
       '@babel/plugin-syntax-typescript': 7.21.4(@babel/core@7.22.1)
@@ -4819,12 +4819,12 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: false
 
-  /@vanilla-extract/webpack-plugin@2.3.5(@types/node@20.11.16)(webpack@5.88.2):
-    resolution: {integrity: sha512-ZeDa8cho4TI2JzShIYyBDF7woKTCvGCWx/B9HsqLvqk6MSthHdUP3pivE2V1okBKvYuRRg1dMiegXiNIxhCMCQ==}
+  /@vanilla-extract/webpack-plugin@2.3.6(@types/node@20.11.16)(webpack@5.88.2):
+    resolution: {integrity: sha512-GnWdVzBFDfCzNRyBoYzuwPTEWFOKFtq3Td9gla6ng+dCeJFRGW+6jT5hXvqJojw8Rk2fWzc6XA2FHPrVa7W9wA==}
     peerDependencies:
       webpack: ^4.30.0 || ^5.20.2
     dependencies:
-      '@vanilla-extract/integration': 6.5.0(@types/node@20.11.16)
+      '@vanilla-extract/integration': 7.0.0(@types/node@20.11.16)
       chalk: 4.1.2
       debug: 4.3.4
       loader-utils: 2.0.4
@@ -8147,7 +8147,7 @@ packages:
       joi: 17.9.2
       mime: 3.0.0
 
-  /gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.5)(gatsby@5.13.3):
+  /gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.14.1)(@vanilla-extract/webpack-plugin@2.3.6)(gatsby@5.13.3):
     resolution: {integrity: sha512-Z754FBnANy1zVpHBg46tjy9CPyp+Hwqj3qONg5aItuBb5SKvZrJnqrXF4/mmXdMO2ZBLcvJQqGHCN1VPlVC6Yg==}
     peerDependencies:
       '@vanilla-extract/css': ^1.0.0
@@ -8155,7 +8155,7 @@ packages:
       gatsby: ^4.0.0 || ^5.0.0
     dependencies:
       '@vanilla-extract/css': 1.14.1
-      '@vanilla-extract/webpack-plugin': 2.3.5(@types/node@20.11.16)(webpack@5.88.2)
+      '@vanilla-extract/webpack-plugin': 2.3.6(@types/node@20.11.16)(webpack@5.88.2)
       gatsby: 5.13.3(babel-eslint@10.1.0)(esbuild@0.20.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
     dev: false
 
