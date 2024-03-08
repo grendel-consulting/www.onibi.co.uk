@@ -92,10 +92,10 @@ importers:
     dependencies:
       '@cdktf/provider-aws':
         specifier: 19.9.0
-        version: 19.9.0(cdktf@0.20.3)(constructs@10.3.0)
+        version: 19.9.0(cdktf@0.20.4)(constructs@10.3.0)
       cdktf:
-        specifier: 0.20.3
-        version: 0.20.3(constructs@10.3.0)
+        specifier: 0.20.4
+        version: 0.20.4(constructs@10.3.0)
       constructs:
         specifier: 10.3.0
         version: 10.3.0
@@ -2144,14 +2144,14 @@ packages:
     resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
 
-  /@cdktf/provider-aws@19.9.0(cdktf@0.20.3)(constructs@10.3.0):
+  /@cdktf/provider-aws@19.9.0(cdktf@0.20.4)(constructs@10.3.0):
     resolution: {integrity: sha512-6dv48W08rINuf4L2VE25h9Ya48RO34QjERshM9rF+xArUWK43ED0eofRg52jftsJKFxf01zEsX6UGw35AysciQ==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
       constructs: ^10.3.0
     dependencies:
-      cdktf: 0.20.3(constructs@10.3.0)
+      cdktf: 0.20.4(constructs@10.3.0)
       constructs: 10.3.0
     dev: false
 
@@ -5731,8 +5731,8 @@ packages:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
     dev: false
 
-  /cdktf@0.20.3(constructs@10.3.0):
-    resolution: {integrity: sha512-y8F3pjYzbMHy9ZG3yXSSerx2Yv9dr2i2j2842IKT1tpN74CBfuuPrselTNdI6QoaMvlQJQQB2l93cJmL6eIkaw==}
+  /cdktf@0.20.4(constructs@10.3.0):
+    resolution: {integrity: sha512-4vgJ8TLik1xse5B8gMcWoE2DkdnkhiTVVyvE+j7dNoCpDApqkINY8MpiZjgCQ4HQ2H/wjRrVAD80bV9JaHixRQ==}
     peerDependencies:
       constructs: ^10.0.25
     dependencies:
