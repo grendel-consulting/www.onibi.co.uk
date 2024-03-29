@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/node": "20.11.30",
     "@types/react": "18.2.73",
-    "@types/react-dom": "18.2.22",
+    "@types/react-dom": "18.2.23",
     "gatsby-plugin-pnpm": "1.2.10",
     "prop-types": "15.8.1",
     "typescript": "5.4.3"
