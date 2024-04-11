@@ -20,6 +20,11 @@
     "prettier": "3.2.5",
     "turbo": "1.13.2"
   },
+  "pnpm" : {
+    "overrides": {
+    "axios": "1.6.4"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.5%",
