@@ -1,0 +1,83 @@
+# Refresh Browser Database Action
+#
+# Ensure latest browser and browser polyfills represent current usage
+#
+# Context: https://github.com/browserslist/update-db
+name: Refresh Browser DB
+
+on:
+  schedule:
+    - cron: '28 05 * * 6'
+  workflow_dispatch:
+    
+permissions:
+  contents: read  
+    
+jobs:
+    refresh:
+        name: prepare-repo
+        runs-on: ubuntu-latest
+    
+        permissions:
+          actions: write
+          contents: write
+          pull-requests: write
+         
+        steps:
+          - name: Harden Runner
+            uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+            with:
+              egress-policy: audit
+    
+          - name: Checkout Repo
+            uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+            with:
+              show-progress: false
+    
+          - name: Install pnpm
+            uses: pnpm/action-setup@v3
+            id: pnpm-install
+            with:
+              run_install: false
+    
+          - name: Install Node.js
+            uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
+            with:
+              node-version: 20
+              cache: 'pnpm'
+    
+          - name: Get Store Directory
+            id: pnpm-cache
+            shell: bash
+            run: |
+              echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+          - name: Setup Cache
+            uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4
+            with:
+              path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+              key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+              restore-keys: |
+                ${{ runner.os }}-pnpm-store-
+
+          - name: Install Dependencies
+            run: pnpm install
+    
+          - name: Refresh DB
+            run: pnpx update-browserslist-db@latest
+
+          - id: refreshed
+            run: echo "refreshed=$(git diff --name-only --exit-code HEAD pnpm-lock.yaml)" >> $GITHUB_OUTPUT
+
+          - name: Create Pull Request
+            if: ${{ steps.refreshed.outputs.refreshed != '' }}
+            env:
+              GH_TOKEN: ${{ github.token }}
+            run: |
+              git config --global user.name "github-actions"
+              git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              git checkout -b refresh-caniuse
+              git add pnpm-lock.yaml
+              git commit -s -m "chore(deps): refresh caniuse browser database"
+              git push origin refresh-caniuse
+              gh pr create --title "chore(deps): refresh caniuse browser database" --body "Automagically created"
