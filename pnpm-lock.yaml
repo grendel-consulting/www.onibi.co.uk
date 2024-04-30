@@ -31,13 +31,13 @@ importers:
         version: 3.0.1(@types/react@18.3.1)(react@18.3.1)
       '@vanilla-extract/babel-plugin':
         specifier: 1.2.0
-        version: 1.2.0
+        version: 1.2.0(babel-plugin-macros@3.1.0)
       '@vanilla-extract/css':
-        specifier: 1.14.2
-        version: 1.14.2
+        specifier: 1.15.1
+        version: 1.15.1(babel-plugin-macros@3.1.0)
       '@vanilla-extract/webpack-plugin':
         specifier: 2.3.7
-        version: 2.3.7(@types/node@20.12.7)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2))
+        version: 2.3.7(@types/node@20.12.7)(babel-plugin-macros@3.1.0)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2))
       gatsby:
         specifier: 5.13.4
         version: 5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5)
@@ -58,7 +58,7 @@ importers:
         version: 6.13.1(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       gatsby-plugin-vanilla-extract:
         specifier: 4.0.2
-        version: 4.0.2(@vanilla-extract/css@1.14.2)(@vanilla-extract/webpack-plugin@2.3.7(@types/node@20.12.7)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2)))(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))
+        version: 4.0.2(@vanilla-extract/css@1.15.1(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.7(@types/node@20.12.7)(babel-plugin-macros@3.1.0)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2)))(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))
       gatsby-source-filesystem:
         specifier: 5.13.1
         version: 5.13.1(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5))
@@ -2517,8 +2517,8 @@ packages:
     resolution: {integrity: sha512-4R+hqoyzoyJIrE+NgrYxZuL6GqGH28hiBrPUOxwtvqnJJ5WnUl2/WzItLDDH9YT1Auwl3cIR7pcbrV6HIchORA==}
     deprecated: The features of this plugin are now built-in to all vanilla-extract bundler integrations — making this plugin no longer required. For more information about test environment integrations, see https://vanilla-extract.style/documentation/test-environments/
 
-  '@vanilla-extract/css@1.14.2':
-    resolution: {integrity: sha512-OasEW4ojGqqRiUpsyEDUMrSkLnmwbChtafkogpCZ1eDAgAZ9eY9CHLYodj2nB8aV5T25kQ5shm92k25ngjYhhg==}
+  '@vanilla-extract/css@1.15.1':
+    resolution: {integrity: sha512-puAfTKAUtsMr2+D+grQNjU5umsdw9zdVgQflUlbzS/tGORaAHdgaYz7jfKPmz1c4ZcpJ6uFNOiI50NDOAzzhyg==}
 
   '@vanilla-extract/integration@5.0.1':
     resolution: {integrity: sha512-HRV/HvC/lihb9wT3x5s7pf5qLjqxSd9nBePJ10juOuMB5cl2ZClEcts076m9BuRKM3wRK2h7KuwkNsaUtjujxQ==}
@@ -10725,44 +10725,49 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vanilla-extract/babel-plugin@1.2.0':
+  '@vanilla-extract/babel-plugin@1.2.0(babel-plugin-macros@3.1.0)':
     dependencies:
       '@babel/core': 7.24.4
       '@babel/template': 7.24.0
-      '@vanilla-extract/integration': 5.0.1
+      '@vanilla-extract/integration': 5.0.1(babel-plugin-macros@3.1.0)
     transitivePeerDependencies:
+      - babel-plugin-macros
       - supports-color
 
-  '@vanilla-extract/css@1.14.2':
+  '@vanilla-extract/css@1.15.1(babel-plugin-macros@3.1.0)':
     dependencies:
       '@emotion/hash': 0.9.1
       '@vanilla-extract/private': 1.0.4
-      chalk: 4.1.2
       css-what: 6.1.0
       cssesc: 3.0.0
       csstype: 3.1.3
+      dedent: 1.5.3(babel-plugin-macros@3.1.0)
       deep-object-diff: 1.1.9
       deepmerge: 4.3.1
       media-query-parser: 2.0.2
       modern-ahocorasick: 1.0.1
-      outdent: 0.8.0
+      picocolors: 1.0.0
+    transitivePeerDependencies:
+      - babel-plugin-macros
 
-  '@vanilla-extract/integration@5.0.1':
+  '@vanilla-extract/integration@5.0.1(babel-plugin-macros@3.1.0)':
     dependencies:
-      '@vanilla-extract/css': 1.14.2
+      '@vanilla-extract/css': 1.15.1(babel-plugin-macros@3.1.0)
       esbuild: 0.11.23
       eval: 0.1.6
       find-up: 5.0.0
       javascript-stringify: 2.1.0
       lodash: 4.17.21
       outdent: 0.8.0
+    transitivePeerDependencies:
+      - babel-plugin-macros
 
-  '@vanilla-extract/integration@7.1.2(@types/node@20.12.7)(terser@5.30.3)':
+  '@vanilla-extract/integration@7.1.2(@types/node@20.12.7)(babel-plugin-macros@3.1.0)(terser@5.30.3)':
     dependencies:
       '@babel/core': 7.24.4
       '@babel/plugin-syntax-typescript': 7.24.1(@babel/core@7.24.4)
       '@vanilla-extract/babel-plugin-debug-ids': 1.0.5
-      '@vanilla-extract/css': 1.14.2
+      '@vanilla-extract/css': 1.15.1(babel-plugin-macros@3.1.0)
       esbuild: 0.19.12
       eval: 0.1.8
       find-up: 5.0.0
@@ -10774,6 +10779,7 @@ snapshots:
       vite-node: 1.4.0(@types/node@20.12.7)(terser@5.30.3)
     transitivePeerDependencies:
       - '@types/node'
+      - babel-plugin-macros
       - less
       - lightningcss
       - sass
@@ -10784,15 +10790,16 @@ snapshots:
 
   '@vanilla-extract/private@1.0.4': {}
 
-  '@vanilla-extract/webpack-plugin@2.3.7(@types/node@20.12.7)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2))':
+  '@vanilla-extract/webpack-plugin@2.3.7(@types/node@20.12.7)(babel-plugin-macros@3.1.0)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2))':
     dependencies:
-      '@vanilla-extract/integration': 7.1.2(@types/node@20.12.7)(terser@5.30.3)
+      '@vanilla-extract/integration': 7.1.2(@types/node@20.12.7)(babel-plugin-macros@3.1.0)(terser@5.30.3)
       chalk: 4.1.2
       debug: 4.3.4
       loader-utils: 2.0.4
       webpack: 5.91.0(esbuild@0.20.2)
     transitivePeerDependencies:
       - '@types/node'
+      - babel-plugin-macros
       - less
       - lightningcss
       - sass
@@ -13253,10 +13260,10 @@ snapshots:
       joi: 17.12.3
       mime: 3.0.0
 
-  gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.14.2)(@vanilla-extract/webpack-plugin@2.3.7(@types/node@20.12.7)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2)))(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5)):
+  gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.15.1(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.7(@types/node@20.12.7)(babel-plugin-macros@3.1.0)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2)))(gatsby@5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5)):
     dependencies:
-      '@vanilla-extract/css': 1.14.2
-      '@vanilla-extract/webpack-plugin': 2.3.7(@types/node@20.12.7)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2))
+      '@vanilla-extract/css': 1.15.1(babel-plugin-macros@3.1.0)
+      '@vanilla-extract/webpack-plugin': 2.3.7(@types/node@20.12.7)(babel-plugin-macros@3.1.0)(terser@5.30.3)(webpack@5.91.0(esbuild@0.20.2))
       gatsby: 5.13.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@0.21.3)(typescript@5.4.5)
 
   gatsby-react-router-scroll@6.13.1(@gatsbyjs/reach-router@2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
