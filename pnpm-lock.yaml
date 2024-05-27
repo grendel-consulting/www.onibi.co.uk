@@ -94,8 +94,8 @@ importers:
   infrastructure/static-site:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 19.19.0
-        version: 19.19.0(cdktf@0.20.7(constructs@10.3.0))(constructs@10.3.0)
+        specifier: 19.20.1
+        version: 19.20.1(cdktf@0.20.7(constructs@10.3.0))(constructs@10.3.0)
       cdktf:
         specifier: 0.20.7
         version: 0.20.7(constructs@10.3.0)
@@ -1112,8 +1112,8 @@ packages:
     resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
 
-  '@cdktf/provider-aws@19.19.0':
-    resolution: {integrity: sha512-Hg/FExH3RF7rmNgD8k/+vGlZ3MjIYi6aKOSdvomqCNDdyK1AtnNLSXtiqMYeYp6MGKtYxkQsCkaJDSbWZOBs6g==}
+  '@cdktf/provider-aws@19.20.1':
+    resolution: {integrity: sha512-Ih0IKc8TBvr6wrONuLDTZmx0Qc+/kJdZIE43T8AmHLTJBe0GnEIB3AhQAmn1ORhLZrWci4VLY6DNKYTskwVyug==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
@@ -4652,6 +4652,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global-modules@2.0.0:
     resolution: {integrity: sha512-NGbfmJBp9x8IxyJSd1P+otYK8vonoJactOogrVfFRIAEY1ukil8RSKDz2Yo7wh1oihl51l/r6W4epkeKJHqL8A==}
@@ -6757,10 +6758,12 @@ packages:
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rollup@4.14.1:
@@ -9313,7 +9316,7 @@ snapshots:
 
   '@builder.io/partytown@0.7.6': {}
 
-  '@cdktf/provider-aws@19.19.0(cdktf@0.20.7(constructs@10.3.0))(constructs@10.3.0)':
+  '@cdktf/provider-aws@19.20.1(cdktf@0.20.7(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
       cdktf: 0.20.7(constructs@10.3.0)
       constructs: 10.3.0
