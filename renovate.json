@@ -1,12 +1,22 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", "schedule:nonOfficeHours", ":gitSignOff"],
+  "extends": [
+    "config:best-practices",
+    "schedule:nonOfficeHours",
+    ":gitSignOff"
+  ],
   "packageRules": [
     {
       "groupName": "types-and-linters",
-      "matchDepTypes": ["devDependencies"],
-      "matchPackagePatterns": ["@types", "lint", "prettier"],
-      "automerge": true
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true,
+      "matchPackageNames": [
+        "/@types/",
+        "/lint/",
+        "/prettier/"
+      ]
     }
   ],
   "pre-commit": {
@@ -14,7 +24,11 @@
   },
   "timezone": "Europe/London",
   "vulnerabilityAlerts": {
-    "labels": ["security"],
-    "assignees": ["@ramirezj"]
+    "labels": [
+      "security"
+    ],
+    "assignees": [
+      "@ramirezj"
+    ]
   }
 }
