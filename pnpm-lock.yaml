@@ -94,8 +94,8 @@ importers:
   infrastructure/static-site:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 19.35.0
-        version: 19.35.0(cdktf@0.20.9(constructs@10.3.0))(constructs@10.3.0)
+        specifier: 19.36.0
+        version: 19.36.0(cdktf@0.20.9(constructs@10.3.0))(constructs@10.3.0)
       cdktf:
         specifier: 0.20.9
         version: 0.20.9(constructs@10.3.0)
@@ -1140,8 +1140,8 @@ packages:
     resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
 
-  '@cdktf/provider-aws@19.35.0':
-    resolution: {integrity: sha512-NdjAuhb865gJgiozYAWL2lyKEAaw78vO2bKWT/zPIpZAil5uAqNvje9Squt21jXm+QM50Yoyrac5yLc/+vxUEQ==}
+  '@cdktf/provider-aws@19.36.0':
+    resolution: {integrity: sha512-lj+W1Wcq5t/mzZ9iVj+bEYGmYwJ9Pu8hNm7l2hpVEbDLHUy3zocAjlbDGsBw2yepi9PJKcY/WKcsL6sSLwkP0g==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
@@ -4198,11 +4198,13 @@ packages:
   eslint@7.32.0:
     resolution: {integrity: sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==}
     engines: {node: ^10.12.0 || >=12.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   eslint@8.57.1:
     resolution: {integrity: sha512-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv/9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   esniff@2.0.1:
@@ -9462,7 +9464,7 @@ snapshots:
 
   '@builder.io/partytown@0.7.6': {}
 
-  '@cdktf/provider-aws@19.35.0(cdktf@0.20.9(constructs@10.3.0))(constructs@10.3.0)':
+  '@cdktf/provider-aws@19.36.0(cdktf@0.20.9(constructs@10.3.0))(constructs@10.3.0)':
     dependencies:
       cdktf: 0.20.9(constructs@10.3.0)
       constructs: 10.3.0
