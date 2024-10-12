@@ -95,13 +95,13 @@ importers:
     dependencies:
       '@cdktf/provider-aws':
         specifier: 19.36.0
-        version: 19.36.0(cdktf@0.20.9(constructs@10.3.1))(constructs@10.3.1)
+        version: 19.36.0(cdktf@0.20.9(constructs@10.4.1))(constructs@10.4.1)
       cdktf:
         specifier: 0.20.9
-        version: 0.20.9(constructs@10.3.1)
+        version: 0.20.9(constructs@10.4.1)
       constructs:
-        specifier: 10.3.1
-        version: 10.3.1
+        specifier: 10.4.1
+        version: 10.4.1
       zod:
         specifier: 3.23.8
         version: 3.23.8
@@ -3511,9 +3511,8 @@ packages:
   constant-case@3.0.4:
     resolution: {integrity: sha512-I2hSBi7Vvs7BEuJDr5dDHfzb/Ruj3FyvFyh7KLilAjNQw3Be+xgqUBA2W6scVEcL0hL1dwPRtIqEPVUCKkSsyQ==}
 
-  constructs@10.3.1:
-    resolution: {integrity: sha512-gTyTNR3iHOVnOk4cKPK6QHRrSZWT1nsnEMFnwLa094/w1L+CKToQel4v4oxnYHi4L07PBNm1p3Bt0WVZI4kgkg==}
-    engines: {node: '>= 18.12.0'}
+  constructs@10.4.1:
+    resolution: {integrity: sha512-eIZhGVl6SFI0T6eKtjDRlgInJn3X3uh6l4MMpRF+cQrCfm1SPkDUAMwwYEJ6bpj0Muv2quKE2E8HrijKGyNGaw==}
 
   content-disposition@0.5.4:
     resolution: {integrity: sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==}
@@ -9464,10 +9463,10 @@ snapshots:
 
   '@builder.io/partytown@0.7.6': {}
 
-  '@cdktf/provider-aws@19.36.0(cdktf@0.20.9(constructs@10.3.1))(constructs@10.3.1)':
+  '@cdktf/provider-aws@19.36.0(cdktf@0.20.9(constructs@10.4.1))(constructs@10.4.1)':
     dependencies:
-      cdktf: 0.20.9(constructs@10.3.1)
-      constructs: 10.3.1
+      cdktf: 0.20.9(constructs@10.4.1)
+      constructs: 10.4.1
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -12067,9 +12066,9 @@ snapshots:
 
   ccount@2.0.1: {}
 
-  cdktf@0.20.9(constructs@10.3.1):
+  cdktf@0.20.9(constructs@10.4.1):
     dependencies:
-      constructs: 10.3.1
+      constructs: 10.4.1
 
   chalk@2.4.2:
     dependencies:
@@ -12290,7 +12289,7 @@ snapshots:
       tslib: 2.6.2
       upper-case: 2.0.2
 
-  constructs@10.3.1: {}
+  constructs@10.4.1: {}
 
   content-disposition@0.5.4:
     dependencies:
