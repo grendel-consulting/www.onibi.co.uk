@@ -37,6 +37,7 @@
       "body-parser@<1.20.3": ">=1.20.3",
       "braces@<3.0.3": ">=3.0.3",
       "cookie@<0.7.0": ">=0.7.0",
+      "cross-spawn@<7.0.5": ">=7.0.5",
       "define-properties": "npm:@socketregistry/define-properties@^1",
       "es-define-property": "npm:@socketregistry/es-define-property@^1",
       "es-iterator-helpers": "npm:@socketregistry/es-iterator-helpers@^1",

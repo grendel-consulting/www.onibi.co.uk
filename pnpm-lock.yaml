@@ -20,6 +20,7 @@ overrides:
   body-parser@<1.20.3: '>=1.20.3'
   braces@<3.0.3: '>=3.0.3'
   cookie@<0.7.0: '>=0.7.0'
+  cross-spawn@<7.0.5: '>=7.0.5'
   define-properties: npm:@socketregistry/define-properties@^1
   es-define-property: npm:@socketregistry/es-define-property@^1
   es-iterator-helpers: npm:@socketregistry/es-iterator-helpers@^1
@@ -252,7 +253,7 @@ packages:
     resolution: {integrity: sha512-9anThAaj1dQr6IGmzBMcfzOQKTa5artjuPmw8NYK/fiGEMjADbSguBY2FMDykt+QhilR3wc9VA/3yVju7JHg7Q==}
     hasBin: true
     peerDependencies:
-      graphql: '*'
+      graphql: '>=16.8.1'
 
   '@aws-crypto/crc32@3.0.0':
     resolution: {integrity: sha512-IzSgsrxUcsrejQbPVilIKy16kAT52EwB6zSaI+M3xxIhKh5+aldEyvI+z6erM7TCLB2BJsFrtHjp6/4/sr+3dA==}
@@ -1675,7 +1676,7 @@ packages:
   '@graphql-codegen/plugin-helpers@2.7.2':
     resolution: {integrity: sha512-kln2AZ12uii6U59OQXdjLk5nOlh1pHis1R98cDZGFnfaiAbX9V3fxcZ1MMJkB7qFUymTALzyjZoXXdyVmPMfRg==}
     peerDependencies:
-      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+      graphql: '>=16.8.1'
 
   '@graphql-codegen/plugin-helpers@3.1.2':
     resolution: {integrity: sha512-emOQiHyIliVOIjKVKdsI5MXj312zmRDwmHpyUTZMjfpvxq/UVAHUJIVdVf+lnjjrI+LXBTgMlTWTgHQfmICxjg==}
@@ -1700,7 +1701,7 @@ packages:
   '@graphql-codegen/visitor-plugin-common@2.13.8':
     resolution: {integrity: sha512-IQWu99YV4wt8hGxIbBQPtqRuaWZhkQRG2IZKbMoSvh0vGeWb3dB0n0hSgKaOOxDY+tljtOf9MTcUYvJslQucMQ==}
     peerDependencies:
-      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+      graphql: '>=16.8.1'
 
   '@graphql-tools/code-file-loader@7.3.23':
     resolution: {integrity: sha512-8Wt1rTtyTEs0p47uzsPJ1vAtfAx0jmxPifiNdmo9EOCuUPyQGEbMaik/YkqZ7QUFIEYEQu+Vgfo8tElwOPtx5Q==}
@@ -1715,7 +1716,7 @@ packages:
   '@graphql-tools/load@7.8.14':
     resolution: {integrity: sha512-ASQvP+snHMYm+FhIaLxxFgVdRaM0vrN9wW2BKInQpktwWTXVyk+yP5nQUCEGmn0RTdlPKrffBaigxepkEAJPrg==}
     peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+      graphql: '>=16.8.1'
 
   '@graphql-tools/merge@8.4.2':
     resolution: {integrity: sha512-XbrHAaj8yDuINph+sAfuq3QCZ/tKblrTLOpirK0+CAgNlZUCHs0Fa+xtMUURgwCVThLle1AF7svJCxFizygLsw==}
@@ -1740,17 +1741,17 @@ packages:
   '@graphql-tools/utils@8.13.1':
     resolution: {integrity: sha512-qIh9yYpdUFmctVqovwMdheVNJqFh+DQNWIhX87FJStfXYnmweBUDATok9fWPleKeFwxnW8IapKmY8m8toJEkAw==}
     peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+      graphql: '>=16.8.1'
 
   '@graphql-tools/utils@9.2.1':
     resolution: {integrity: sha512-WUw506Ql6xzmOORlriNrD6Ugx+HjVgYxt9KCXD9mHAak+eaXSwuGGPyE60hy9xaDEoXKBsG7SkG69ybitaVl6A==}
     peerDependencies:
-      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+      graphql: '>=16.8.1'
 
   '@graphql-typed-document-node/core@3.2.0':
     resolution: {integrity: sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==}
     peerDependencies:
-      graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+      graphql: '>=16.8.1'
 
   '@hapi/hoek@9.3.0':
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
@@ -2584,8 +2585,8 @@ packages:
     resolution: {integrity: sha512-cfmeRNb4bVNL6+awnfSIDkyU0HUO71QL2euaCvnFXYikcdaB+ZOpCR4jINIP2dF11RRoWgJVHG/NkjIV8YWvyA==}
     engines: {node: '>=18.20.4'}
 
-  '@socketregistry/es-iterator-helpers@1.0.6':
-    resolution: {integrity: sha512-jrD9oqYO66FnSrd889AxFRrXDFA/tz+0+tNWsAILsl1REfMcCIb89hHLz+D0oGRRSkLIlgWt7BuSiHHP3wuztg==}
+  '@socketregistry/es-iterator-helpers@1.0.7':
+    resolution: {integrity: sha512-8aVI4HRtdVhdiIL9PG2P9hitf6SMdg5eH/2Q98iBgLB1HgPA7jNSoQm4GKDoFQBynyt4h3Rm3IVk7p1HqT0X2w==}
     engines: {node: '>=18.20.4'}
 
   '@socketregistry/es6-symbol@1.0.5':
@@ -2644,8 +2645,8 @@ packages:
     resolution: {integrity: sha512-x6W5FZJwngd3UqOA0TXucXuD/RdGm4NHvnDYC2topSlfyA2vtTff9lcXpuQqzi/TxxlHEfYc0toRA+VDQSdfxw==}
     engines: {node: '>=18.20.4'}
 
-  '@socketregistry/side-channel@1.0.5':
-    resolution: {integrity: sha512-5UgOtX5i0k5WBmNMSHvCoxC3XbRYFJwhAyN94LA2MSvBc/RGHuyjtKXY4j05LUwM/+UpRG5IqLWU/siyp3k+9w==}
+  '@socketregistry/side-channel@1.0.6':
+    resolution: {integrity: sha512-s5DMU7a192OUMvIU3xjfKCu/kpGuKo0hWtCD6h7fhm0CcHS4NqXeTS5+DjDuRTuUowc4PQXzHRA0OZdKuaRAWQ==}
     engines: {node: '>=18.20.4'}
 
   '@socketregistry/string.prototype.matchall@1.0.5':
@@ -3685,8 +3686,8 @@ packages:
   cross-fetch@3.1.8:
     resolution: {integrity: sha512-cvA+JwZoU0Xq+h6WkMvAUqPEYy92Obet6UdKLfW60qn99ftItKjB5T+BkyWOFWe2pUyfQ+IJHmpOTznqk1M6Kg==}
 
-  cross-spawn@7.0.3:
-    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+  cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
   crypto-random-string@2.0.0:
@@ -10628,7 +10629,7 @@ snapshots:
 
   '@socketregistry/array.prototype.tosorted@1.0.5': {}
 
-  '@socketregistry/es-iterator-helpers@1.0.6': {}
+  '@socketregistry/es-iterator-helpers@1.0.7': {}
 
   '@socketregistry/es6-symbol@1.0.5': {}
 
@@ -10658,7 +10659,7 @@ snapshots:
 
   '@socketregistry/safer-buffer@1.0.5': {}
 
-  '@socketregistry/side-channel@1.0.5': {}
+  '@socketregistry/side-channel@1.0.6': {}
 
   '@socketregistry/string.prototype.matchall@1.0.5': {}
 
@@ -11952,7 +11953,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  cross-spawn@7.0.3:
+  cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
@@ -12515,7 +12516,7 @@ snapshots:
       axobject-query: 3.2.1
       damerau-levenshtein: 1.0.8
       emoji-regex: 9.2.2
-      es-iterator-helpers: '@socketregistry/es-iterator-helpers@1.0.6'
+      es-iterator-helpers: '@socketregistry/es-iterator-helpers@1.0.7'
       eslint: 7.32.0
       hasown: '@socketregistry/hasown@1.0.5'
       jsx-ast-utils: 3.3.5
@@ -12536,7 +12537,7 @@ snapshots:
       array.prototype.toreversed: '@socketregistry/array.prototype.toreversed@1.0.5'
       array.prototype.tosorted: '@socketregistry/array.prototype.tosorted@1.0.5'
       doctrine: 2.1.0
-      es-iterator-helpers: '@socketregistry/es-iterator-helpers@1.0.6'
+      es-iterator-helpers: '@socketregistry/es-iterator-helpers@1.0.7'
       eslint: 7.32.0
       estraverse: 5.3.0
       jsx-ast-utils: 3.3.5
@@ -12593,7 +12594,7 @@ snapshots:
       '@humanwhocodes/config-array': 0.5.0
       ajv: 6.12.6
       chalk: 4.1.2
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       debug: 4.3.7
       doctrine: 3.0.0
       enquirer: 2.4.1
@@ -12643,7 +12644,7 @@ snapshots:
       '@ungap/structured-clone': 1.2.0
       ajv: 6.12.6
       chalk: 4.1.2
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       debug: 4.3.7
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
@@ -12758,7 +12759,7 @@ snapshots:
 
   execa@5.1.1:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       get-stream: 6.0.1
       human-signals: 2.1.0
       is-stream: 2.0.1
@@ -12770,7 +12771,7 @@ snapshots:
 
   execa@8.0.1:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       get-stream: 8.0.1
       human-signals: 5.0.0
       is-stream: 3.0.0
@@ -15293,7 +15294,7 @@ snapshots:
   password-prompt@1.1.3:
     dependencies:
       ansi-escapes: 4.3.2
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
 
   path-case@3.0.4:
     dependencies:
@@ -15639,7 +15640,7 @@ snapshots:
 
   qs@6.13.0:
     dependencies:
-      side-channel: '@socketregistry/side-channel@1.0.5'
+      side-channel: '@socketregistry/side-channel@1.0.6'
 
   query-string@6.14.1:
     dependencies:
@@ -15686,7 +15687,7 @@ snapshots:
       address: 1.2.2
       browserslist: 4.23.0
       chalk: 4.1.2
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       detect-port-alt: 1.1.6
       escape-string-regexp: 4.0.0
       filesize: 8.0.7
