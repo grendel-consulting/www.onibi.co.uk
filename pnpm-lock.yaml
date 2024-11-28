@@ -187,8 +187,8 @@ importers:
   infrastructure/static-site:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 19.43.0
-        version: 19.43.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)
+        specifier: 19.44.0
+        version: 19.44.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)
       cdktf:
         specifier: 0.20.10
         version: 0.20.10(constructs@10.4.2)
@@ -1188,8 +1188,8 @@ packages:
     resolution: {integrity: sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw==}
     hasBin: true
 
-  '@cdktf/provider-aws@19.43.0':
-    resolution: {integrity: sha512-gvyziNB8hvy/j1xP9ZCb7hNun0ChpSEQ9ml8C1RbCYsXCPGwnY+N5Opf0RLFHxNFtU8IVxCINnAuYg696pcYTQ==}
+  '@cdktf/provider-aws@19.44.0':
+    resolution: {integrity: sha512-oWv/w26z1uY27H+0ecGPnEe2+LNLVal/tegBkkbmldkU/1CERwO9rp3+QKSIH+xZ3vcZUPh7zCwf3IhrjPunAg==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       cdktf: ^0.20.0
@@ -9091,7 +9091,7 @@ snapshots:
 
   '@builder.io/partytown@0.7.6': {}
 
-  '@cdktf/provider-aws@19.43.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)':
+  '@cdktf/provider-aws@19.44.0(cdktf@0.20.10(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
       cdktf: 0.20.10(constructs@10.4.2)
       constructs: 10.4.2
