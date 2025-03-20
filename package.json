@@ -33,7 +33,7 @@
       "array.prototype.tosorted": "npm:@socketregistry/array.prototype.tosorted@^1",
       "arraybuffer.prototype.slice": "npm:@socketregistry/arraybuffer.prototype.slice@^1",
       "available-typed-arrays": "npm:@socketregistry/available-typed-arrays@^1",
-      "axios": "1.8.3",
+      "axios": "1.8.4",
       "body-parser@<1.20.3": ">=1.20.3",
       "braces@<3.0.3": ">=3.0.3",
       "cookie@<0.7.0": ">=0.7.0",
