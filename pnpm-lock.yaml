@@ -188,10 +188,10 @@ importers:
     dependencies:
       '@cdktf/provider-aws':
         specifier: 19.60.1
-        version: 19.60.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)
+        version: 19.60.1(cdktf@0.20.12(constructs@10.4.2))(constructs@10.4.2)
       cdktf:
-        specifier: 0.20.11
-        version: 0.20.11(constructs@10.4.2)
+        specifier: 0.20.12
+        version: 0.20.12(constructs@10.4.2)
       constructs:
         specifier: 10.4.2
         version: 10.4.2
@@ -3073,8 +3073,8 @@ packages:
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
 
-  cdktf@0.20.11:
-    resolution: {integrity: sha512-YoubhokJ8s60WNrP2+cpQinb0DdMXlaFFDnPPv2A/tcRkzkwO9dWuMiXhhA0XlBJ1qA5pibaonu9Cc4B9JgKuQ==}
+  cdktf@0.20.12:
+    resolution: {integrity: sha512-ZBg2gA3Uw0WvGFlgrY1uxo6QHWn+ZdHiDkZQyOsTBl68k62UlaV8K7RR51d0E/amQG/CjtKOJr5XPFFAcOq0VA==}
     peerDependencies:
       constructs: ^10.3.0
     bundledDependencies:
@@ -8709,9 +8709,9 @@ snapshots:
 
   '@builder.io/partytown@0.7.6': {}
 
-  '@cdktf/provider-aws@19.60.1(cdktf@0.20.11(constructs@10.4.2))(constructs@10.4.2)':
+  '@cdktf/provider-aws@19.60.1(cdktf@0.20.12(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
-      cdktf: 0.20.11(constructs@10.4.2)
+      cdktf: 0.20.12(constructs@10.4.2)
       constructs: 10.4.2
 
   '@cspotcode/source-map-support@0.8.1':
@@ -11056,7 +11056,7 @@ snapshots:
 
   ccount@2.0.1: {}
 
-  cdktf@0.20.11(constructs@10.4.2):
+  cdktf@0.20.12(constructs@10.4.2):
     dependencies:
       constructs: 10.4.2
 
