@@ -18,7 +18,7 @@
     "esbuild": "0.25.2",
     "eslint-config-custom": "workspace:*",
     "prettier": "3.5.3",
-    "turbo": "2.5.0"
+    "turbo": "2.5.2"
   },
   "pnpm": {
     "overrides": {
