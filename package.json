@@ -1,7 +1,9 @@
 {
   "name": "www.onibi.co.uk",
   "description": "Brochureware site for Onibi imprint",
-  "author": "James Ramirez",
+  "author": {
+    "name": "James Ramirez"
+  },
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
@@ -115,7 +117,10 @@
       "which-boxed-primitive": "npm:@socketregistry/which-boxed-primitive@^1",
       "which-collection": "npm:@socketregistry/which-collection@^1",
       "which-typed-array": "npm:@socketregistry/which-typed-array@^1",
-      "ws@>=8.0.0 <8.17.1": ">=8.17.1"
+      "ws@>=8.0.0 <8.17.1": ">=8.17.1",
+      "@babel/helpers@<7.26.10": "7.27.0",
+      "@babel/runtime@<7.26.10": "7.27.0",
+      "esbuild@<=0.24.2": "0.25.3"
     }
   },
   "browserslist": {

@@ -1,6 +1,8 @@
 {
   "name": "eslint-config-custom",
-  "author": "James Ramirez",
+  "author": {
+    "name": "James Ramirez"
+  },
   "version": "0.1.0",
   "license": "MIT",
   "main": "index.js",
