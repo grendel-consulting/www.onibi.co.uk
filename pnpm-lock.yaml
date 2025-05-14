@@ -132,8 +132,8 @@ importers:
         specifier: 1.17.2
         version: 1.17.2(babel-plugin-macros@3.1.0)
       '@vanilla-extract/webpack-plugin':
-        specifier: 2.3.18
-        version: 2.3.18(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4))
+        specifier: 2.3.19
+        version: 2.3.19(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4))
       gatsby:
         specifier: 5.14.3
         version: 5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3)
@@ -154,7 +154,7 @@ importers:
         version: 6.14.0(gatsby@5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       gatsby-plugin-vanilla-extract:
         specifier: 4.0.2
-        version: 4.0.2(@vanilla-extract/css@1.17.2(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.18(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4)))(gatsby@5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3))
+        version: 4.0.2(@vanilla-extract/css@1.17.2(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.19(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4)))(gatsby@5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3))
       gatsby-source-filesystem:
         specifier: 5.14.0
         version: 5.14.0(gatsby@5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3))
@@ -2621,14 +2621,14 @@ packages:
   '@vanilla-extract/integration@5.0.1':
     resolution: {integrity: sha512-HRV/HvC/lihb9wT3x5s7pf5qLjqxSd9nBePJ10juOuMB5cl2ZClEcts076m9BuRKM3wRK2h7KuwkNsaUtjujxQ==}
 
-  '@vanilla-extract/integration@8.0.1':
-    resolution: {integrity: sha512-ag64t+AM96XGOiloc5ryZHP5rbfleFyfoPKa42QqOuyAlLx/UpW5epSY+RUldizP4P/uLy5WFRiYlNddK1eQUQ==}
+  '@vanilla-extract/integration@8.0.2':
+    resolution: {integrity: sha512-w9OvWwsYkqyuyHf9NLnOJ8ap0FGTy2pAeWftgxAEkKE3tF1aYeyEtYRHKxfVH6JRgi8JIeQqELHGMSwz+BxwiA==}
 
   '@vanilla-extract/private@1.0.7':
     resolution: {integrity: sha512-v9Yb0bZ5H5Kr8ciwPXyEToOFD7J/fKKH93BYP7NCSZg02VYsA/pNFrLeVDJM2OO/vsygduPKuiEI6ORGQ4IcBw==}
 
-  '@vanilla-extract/webpack-plugin@2.3.18':
-    resolution: {integrity: sha512-00AB9LQJZ5JM6jQCCn3upONPi4jqJnjXrN+uROgfixgxIpq0fMEfhnwOtAdECG7gRCy0T2jzpo1KO1Fh5wYsJg==}
+  '@vanilla-extract/webpack-plugin@2.3.19':
+    resolution: {integrity: sha512-GDphiVib3EMeNkMNyzc7zOs35lBs1GzlALi93dawl/V4e6CsCsGKBNrPzGpDSFvzf4Vq51MNuUkyzwAdfbayPQ==}
     peerDependencies:
       webpack: '>=5.94.0'
 
@@ -7889,7 +7889,7 @@ snapshots:
       '@babel/traverse': 7.24.1
       '@babel/types': 7.24.0
       convert-source-map: 2.0.0
-      debug: 4.3.7
+      debug: 4.4.0
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -7968,7 +7968,7 @@ snapshots:
       '@babel/core': 7.24.4
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-plugin-utils': 7.24.0
-      debug: 4.3.7
+      debug: 4.4.0
       lodash.debounce: 4.0.8
       resolve: 1.22.8
     transitivePeerDependencies:
@@ -8772,7 +8772,7 @@ snapshots:
       '@babel/helper-split-export-declaration': 7.22.6
       '@babel/parser': 7.26.2
       '@babel/types': 7.24.0
-      debug: 4.3.7
+      debug: 4.4.0
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -8784,7 +8784,7 @@ snapshots:
       '@babel/parser': 7.26.2
       '@babel/template': 7.25.9
       '@babel/types': 7.26.0
-      debug: 4.3.7
+      debug: 4.4.0
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -8933,7 +8933,7 @@ snapshots:
   '@eslint/eslintrc@0.4.3':
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.7
+      debug: 4.4.0
       espree: 7.3.1
       globals: 13.24.0
       ignore: 4.0.6
@@ -8947,7 +8947,7 @@ snapshots:
   '@eslint/eslintrc@2.1.4':
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.7
+      debug: 4.4.0
       espree: 9.6.1
       globals: 13.24.0
       ignore: 5.3.1
@@ -9150,7 +9150,7 @@ snapshots:
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
-      debug: 4.3.7
+      debug: 4.4.0
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -9158,7 +9158,7 @@ snapshots:
   '@humanwhocodes/config-array@0.5.0':
     dependencies:
       '@humanwhocodes/object-schema': 1.2.1
-      debug: 4.3.7
+      debug: 4.4.0
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -10426,7 +10426,7 @@ snapshots:
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@7.32.0)(typescript@5.8.3)
       '@typescript-eslint/utils': 5.62.0(eslint@7.32.0)(typescript@5.8.3)
-      debug: 4.3.7
+      debug: 4.4.0
       eslint: 7.32.0
       graphemer: 1.4.0
       ignore: 5.3.1
@@ -10443,7 +10443,7 @@ snapshots:
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.8.3)
-      debug: 4.3.7
+      debug: 4.4.0
       eslint: 7.32.0
     optionalDependencies:
       typescript: 5.8.3
@@ -10459,7 +10459,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.8.3)
       '@typescript-eslint/utils': 5.62.0(eslint@7.32.0)(typescript@5.8.3)
-      debug: 4.3.7
+      debug: 4.4.0
       eslint: 7.32.0
       tsutils: 3.21.0(typescript@5.8.3)
     optionalDependencies:
@@ -10473,7 +10473,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/visitor-keys': 5.62.0
-      debug: 4.3.7
+      debug: 4.4.0
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.7.1
@@ -10549,7 +10549,7 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@vanilla-extract/integration@8.0.1(babel-plugin-macros@3.1.0)':
+  '@vanilla-extract/integration@8.0.2(babel-plugin-macros@3.1.0)':
     dependencies:
       '@babel/core': 7.24.4
       '@babel/plugin-syntax-typescript': 7.24.1(@babel/core@7.24.4)
@@ -10567,10 +10567,10 @@ snapshots:
 
   '@vanilla-extract/private@1.0.7': {}
 
-  '@vanilla-extract/webpack-plugin@2.3.18(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4))':
+  '@vanilla-extract/webpack-plugin@2.3.19(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4))':
     dependencies:
-      '@vanilla-extract/integration': 8.0.1(babel-plugin-macros@3.1.0)
-      debug: 4.3.7
+      '@vanilla-extract/integration': 8.0.2(babel-plugin-macros@3.1.0)
+      debug: 4.4.0
       loader-utils: 2.0.4
       picocolors: 1.1.1
       webpack: 5.98.0(esbuild@0.25.4)
@@ -10676,6 +10676,10 @@ snapshots:
   acorn-jsx@5.3.2(acorn@8.11.3):
     dependencies:
       acorn: 8.11.3
+
+  acorn-jsx@5.3.2(acorn@8.14.1):
+    dependencies:
+      acorn: 8.14.1
 
   acorn-loose@8.4.0:
     dependencies:
@@ -11679,7 +11683,7 @@ snapshots:
   detect-port@1.5.1:
     dependencies:
       address: 1.2.2
-      debug: 4.3.7
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -12084,7 +12088,7 @@ snapshots:
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.3.7
+      debug: 4.4.0
       doctrine: 3.0.0
       enquirer: 2.4.1
       escape-string-regexp: 4.0.0
@@ -12784,10 +12788,10 @@ snapshots:
       joi: 17.12.3
       mime: 3.0.0
 
-  gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.17.2(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.18(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4)))(gatsby@5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3)):
+  gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.17.2(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.19(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4)))(gatsby@5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3)):
     dependencies:
       '@vanilla-extract/css': 1.17.2(babel-plugin-macros@3.1.0)
-      '@vanilla-extract/webpack-plugin': 2.3.18(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4))
+      '@vanilla-extract/webpack-plugin': 2.3.19(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.4))
       gatsby: 5.14.3(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.40.0)(typescript@5.8.3)
 
   gatsby-react-router-scroll@6.14.0(@gatsbyjs/reach-router@2.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
@@ -13526,7 +13530,7 @@ snapshots:
 
   istanbul-lib-source-maps@4.0.1:
     dependencies:
-      debug: 4.3.7
+      debug: 4.4.0
       istanbul-lib-coverage: 3.2.2
       source-map: 0.6.1
     transitivePeerDependencies:
@@ -14322,8 +14326,8 @@ snapshots:
 
   micromark-extension-mdxjs@1.0.1:
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.14.1
+      acorn-jsx: 5.3.2(acorn@8.14.1)
       micromark-extension-mdx-expression: 1.0.8
       micromark-extension-mdx-jsx: 1.0.5
       micromark-extension-mdx-md: 1.0.1
@@ -14448,7 +14452,7 @@ snapshots:
   micromark@3.2.0:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.3.7
+      debug: 4.4.0
       decode-named-character-reference: 1.0.2
       micromark-core-commonmark: 1.1.0
       micromark-factory-space: 1.1.0
@@ -14523,7 +14527,7 @@ snapshots:
 
   mlly@1.6.1:
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.14.1
       pathe: 1.1.2
       pkg-types: 1.0.3
       ufo: 1.5.3
