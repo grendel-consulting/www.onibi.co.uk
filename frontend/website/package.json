@@ -33,8 +33,8 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/node": "22.15.19",
-    "@types/react": "19.1.4",
+    "@types/node": "22.15.21",
+    "@types/react": "19.1.5",
     "@types/react-dom": "19.1.5",
     "gatsby-plugin-pnpm": "1.2.10",
     "prop-types": "15.8.1",
