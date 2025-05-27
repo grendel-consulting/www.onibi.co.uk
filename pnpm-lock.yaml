@@ -199,8 +199,8 @@ importers:
         specifier: 10.4.2
         version: 10.4.2
       zod:
-        specifier: 3.25.20
-        version: 3.25.20
+        specifier: 3.25.30
+        version: 3.25.30
     devDependencies:
       '@types/jest':
         specifier: 29.5.14
@@ -7316,8 +7316,8 @@ packages:
     engines: {node: '>=4.0.0'}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
-  zod@3.25.20:
-    resolution: {integrity: sha512-z03fqpTMDF1G02VLKUMt6vyACE7rNWkh3gpXVHgPTw28NPtDFRGvcpTtPwn2kMKtQ0idtYJUTxchytmnqYswcw==}
+  zod@3.25.30:
+    resolution: {integrity: sha512-VolhdEtu6TJr/fzGuHA/SZ5ixvXqA6ADOG9VRcQ3rdOKmF5hkmcJbyaQjUH5BgmpA9gej++zYRX7zjSmdReIwA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -16441,6 +16441,6 @@ snapshots:
       read: 1.0.7
       strip-ansi: 5.2.0
 
-  zod@3.25.20: {}
+  zod@3.25.30: {}
 
   zwitch@2.0.4: {}
