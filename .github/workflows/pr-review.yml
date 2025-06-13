@@ -27,6 +27,7 @@ jobs:
             nodejs.org:443
             objects.githubusercontent.com:443
             raw.githubusercontent.com:443
+            release-assets.githubusercontent.com:443
             registry.npmjs.org:443
             telemetry.vercel.com:443
             unpkg.com:443
