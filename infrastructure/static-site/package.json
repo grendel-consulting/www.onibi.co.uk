@@ -28,7 +28,7 @@
     "@types/node": "22.15.31",
     "jest": "30.0.0",
     "s3-spa-upload": "2.1.5",
-    "ts-jest": "29.3.4",
+    "ts-jest": "29.4.0",
     "ts-node": "10.9.2",
     "typescript": "5.8.3"
   }
