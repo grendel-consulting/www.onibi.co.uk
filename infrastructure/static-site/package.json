@@ -24,7 +24,7 @@
     "zod": "3.25.64"
   },
   "devDependencies": {
-    "@types/jest": "29.5.14",
+    "@types/jest": "30.0.0",
     "@types/node": "22.15.32",
     "jest": "30.0.0",
     "s3-spa-upload": "2.1.5",
