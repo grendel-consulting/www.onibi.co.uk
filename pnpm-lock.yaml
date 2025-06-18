@@ -129,8 +129,8 @@ importers:
         specifier: 1.2.0
         version: 1.2.0(babel-plugin-macros@3.1.0)
       '@vanilla-extract/css':
-        specifier: 1.17.3
-        version: 1.17.3(babel-plugin-macros@3.1.0)
+        specifier: 1.17.4
+        version: 1.17.4(babel-plugin-macros@3.1.0)
       '@vanilla-extract/webpack-plugin':
         specifier: 2.3.22
         version: 2.3.22(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.5))
@@ -154,7 +154,7 @@ importers:
         version: 6.14.0(gatsby@5.14.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.41.0)(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       gatsby-plugin-vanilla-extract:
         specifier: 4.0.2
-        version: 4.0.2(@vanilla-extract/css@1.17.3(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.22(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.5)))(gatsby@5.14.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.41.0)(typescript@5.8.3))
+        version: 4.0.2(@vanilla-extract/css@1.17.4(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.22(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.5)))(gatsby@5.14.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.41.0)(typescript@5.8.3))
       gatsby-source-filesystem:
         specifier: 5.14.0
         version: 5.14.0(gatsby@5.14.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.41.0)(typescript@5.8.3))
@@ -2786,9 +2786,6 @@ packages:
     resolution: {integrity: sha512-4R+hqoyzoyJIrE+NgrYxZuL6GqGH28hiBrPUOxwtvqnJJ5WnUl2/WzItLDDH9YT1Auwl3cIR7pcbrV6HIchORA==}
     deprecated: The features of this plugin are now built-in to all vanilla-extract bundler integrations — making this plugin no longer required. For more information about test environment integrations, see https://vanilla-extract.style/documentation/test-environments/
 
-  '@vanilla-extract/css@1.17.3':
-    resolution: {integrity: sha512-jHivr1UPoJTX5Uel4AZSOwrCf4mO42LcdmnhJtUxZaRWhW4FviFbIfs0moAWWld7GOT+2XnuVZjjA/K32uUnMQ==}
-
   '@vanilla-extract/css@1.17.4':
     resolution: {integrity: sha512-m3g9nQDWPtL+sTFdtCGRMI1Vrp86Ay4PBYq1Bo7Bnchj5ElNtAJpOqD+zg+apthVA4fB7oVpMWNjwpa6ElDWFQ==}
 
@@ -2797,9 +2794,6 @@ packages:
 
   '@vanilla-extract/integration@8.0.4':
     resolution: {integrity: sha512-cmOb7tR+g3ulKvFtSbmdw3YUyIS1d7MQqN+FcbwNhdieyno5xzUyfDCMjeWJhmCSMvZ6WlinkrOkgs6SHB+FRg==}
-
-  '@vanilla-extract/private@1.0.8':
-    resolution: {integrity: sha512-oRAbUlq1SyTWCo7dQnTVm+xgJMqNl8K1dEempQHXzQvUuyEfBabMt0wNGf+VCHzvKbx/Bzr9p/2wy8WA9+2z2g==}
 
   '@vanilla-extract/private@1.0.9':
     resolution: {integrity: sha512-gT2jbfZuaaCLrAxwXbRgIhGhcXbRZCG3v4TTUnjw0EJ7ArdBRxkq4msNJkbuRkCgfIK5ATmprB5t9ljvLeFDEA==}
@@ -11137,23 +11131,6 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  '@vanilla-extract/css@1.17.3(babel-plugin-macros@3.1.0)':
-    dependencies:
-      '@emotion/hash': 0.9.1
-      '@vanilla-extract/private': 1.0.8
-      css-what: 6.1.0
-      cssesc: 3.0.0
-      csstype: 3.1.3
-      dedent: 1.6.0(babel-plugin-macros@3.1.0)
-      deep-object-diff: 1.1.9
-      deepmerge: 4.3.1
-      lru-cache: 10.4.3
-      media-query-parser: 2.0.2
-      modern-ahocorasick: 1.0.1
-      picocolors: 1.1.1
-    transitivePeerDependencies:
-      - babel-plugin-macros
-
   '@vanilla-extract/css@1.17.4(babel-plugin-macros@3.1.0)':
     dependencies:
       '@emotion/hash': 0.9.1
@@ -11173,7 +11150,7 @@ snapshots:
 
   '@vanilla-extract/integration@5.0.1(babel-plugin-macros@3.1.0)':
     dependencies:
-      '@vanilla-extract/css': 1.17.3(babel-plugin-macros@3.1.0)
+      '@vanilla-extract/css': 1.17.4(babel-plugin-macros@3.1.0)
       esbuild: 0.25.5
       eval: 0.1.6
       find-up: 5.0.0
@@ -11198,8 +11175,6 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
-
-  '@vanilla-extract/private@1.0.8': {}
 
   '@vanilla-extract/private@1.0.9': {}
 
@@ -13419,9 +13394,9 @@ snapshots:
       joi: 17.12.3
       mime: 3.0.0
 
-  gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.17.3(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.22(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.5)))(gatsby@5.14.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.41.0)(typescript@5.8.3)):
+  gatsby-plugin-vanilla-extract@4.0.2(@vanilla-extract/css@1.17.4(babel-plugin-macros@3.1.0))(@vanilla-extract/webpack-plugin@2.3.22(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.5)))(gatsby@5.14.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.41.0)(typescript@5.8.3)):
     dependencies:
-      '@vanilla-extract/css': 1.17.3(babel-plugin-macros@3.1.0)
+      '@vanilla-extract/css': 1.17.4(babel-plugin-macros@3.1.0)
       '@vanilla-extract/webpack-plugin': 2.3.22(babel-plugin-macros@3.1.0)(webpack@5.98.0(esbuild@0.25.5))
       gatsby: 5.14.4(babel-eslint@10.1.0(eslint@7.32.0))(esbuild@0.25.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@4.41.0)(typescript@5.8.3)
 
