@@ -19,7 +19,7 @@
   "devDependencies": {
     "esbuild": "0.25.5",
     "eslint-config-custom": "workspace:*",
-    "prettier": "3.5.3",
+    "prettier": "3.6.0",
     "turbo": "2.5.4"
   },
   "pnpm": {
