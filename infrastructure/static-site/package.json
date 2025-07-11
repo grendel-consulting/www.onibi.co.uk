@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@types/jest": "30.0.0",
-    "@types/node": "22.16.2",
+    "@types/node": "22.16.3",
     "jest": "30.0.4",
     "s3-spa-upload": "2.1.5",
     "ts-jest": "29.4.0",
