@@ -21,7 +21,7 @@
     "@cdktf/provider-aws": "21.2.0",
     "cdktf": "0.21.0",
     "constructs": "10.4.2",
-    "zod": "3.25.76"
+    "zod": "4.0.5"
   },
   "devDependencies": {
     "@types/jest": "30.0.0",
