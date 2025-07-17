@@ -20,7 +20,7 @@
     "esbuild": "0.25.6",
     "eslint-config-custom": "workspace:*",
     "prettier": "3.6.2",
-    "turbo": "2.5.4"
+    "turbo": "2.5.5"
   },
   "pnpm": {
     "overrides": {
