@@ -1,0 +1,20 @@
+{
+  "name": "@repo/playwright",
+  "author": {
+    "name": "James Ramirez"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "browsers": "pnpm playwright install --only-shell chromium",
+    "e2e": "pnpm bddgen && pnpm playwright test --project=chromium"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@playwright/test": "1.54.1",
+    "@types/node": "24.1.0",
+    "dotenv": "17.2.1",
+    "playwright-bdd": "8.3.1"
+  },
+  "packageManager": "pnpm@10.13.1"
+}

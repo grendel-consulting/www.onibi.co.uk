@@ -1,4 +1,10 @@
 packages:
-  - 'frontend/*'
-  - 'infrastructure/*'
-  - 'packages/*'
+  - "frontend/*"
+  - "infrastructure/*"
+  - "packages/*"
+  - "tooling/*"
+
+onlyBuiltDependencies:
+  - "@tailwindcss/oxide"
+  - esbuild
+  - sharp

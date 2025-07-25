@@ -1,10 +1,10 @@
-name: Scorecard OSSF
+name: Assess Repo vs OSSF Scorecard
 on:
   branch_protection_rule:
   schedule:
-    - cron: '32 07 * * 4'
+    - cron: "32 04 * * 6" # Every Saturday at 04:32 UTC
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions: {}
 
@@ -37,36 +37,26 @@ jobs:
             tuf-repo-cdn.sigstore.dev:443
             www.bestpractices.dev:443
 
-      - name: "Checkout Repo"
+      - name: Checkout Repo
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
 
-      - name: "Run Analysis"
+      - name: Perform Analysis
         uses: ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde # v2.4.2
         with:
           results_file: results.sarif
           results_format: sarif
-          # (Optional) "write" PAT token. Uncomment the `repo_token` line below if:
-          # - you want to enable the Branch-Protection check on a *public* repository, or
-          # - you are installing Scorecard on a *private* repository
-          # To create the PAT, follow the steps in https://github.com/ossf/scorecard-action?tab=readme-ov-file#authentication-with-fine-grained-pat-optional.
-          # repo_token: ${{ secrets.SCORECARD_TOKEN }}
-
-          # Public repositories:
-          #   - Publish results to OpenSSF REST API for easy access by consumers
-          #   - Allows the repository to include the Scorecard badge.
-          #   - See https://github.com/ossf/scorecard-action#publishing-results.
           publish_results: true
 
-      - name: "Upload Artifact"
+      - name: Upload Results
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: SARIF file
           path: results.sarif
           retention-days: 5
 
-      - name: "Upload to Code-Scanning"
+      - name: Upload to Code-Scanning
         uses: github/codeql-action/upload-sarif@d6bbdef45e766d081b84a2def353b0055f728d3e # v3.29.3
         with:
           sarif_file: results.sarif

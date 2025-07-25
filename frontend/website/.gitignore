@@ -1,5 +1,5 @@
-.cache
-.turbo
-node_modules
-public
-src/gatsby-types.d.ts
+# Generated types
+.astro/
+
+# Build output
+dist/

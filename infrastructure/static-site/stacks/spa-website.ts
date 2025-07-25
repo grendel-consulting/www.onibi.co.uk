@@ -108,7 +108,7 @@ export class SpaWebsite extends TerraformStack {
         record = dvo.resource_record_value
         type   = dvo.resource_record_type
       }
-      }}`
+      }}`,
     );
 
     const validation = new AcmCertificateValidation(this, "validation", {
@@ -118,7 +118,7 @@ export class SpaWebsite extends TerraformStack {
 
     validation.addOverride(
       "validation_record_fqdns",
-      `\${[for record in aws_route53_record.${validation_records.friendlyUniqueId} : record.fqdn]}`
+      `\${[for record in aws_route53_record.${validation_records.friendlyUniqueId} : record.fqdn]}`,
     );
 
     const cloudfrontOai = new CloudfrontOriginAccessIdentity(this, "oai", {
@@ -270,7 +270,7 @@ export class SpaWebsite extends TerraformStack {
             },
           ],
         },
-      }
+      },
     );
 
     const distribution = new CloudfrontDistribution(this, "distribution", {

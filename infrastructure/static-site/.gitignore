@@ -8,5 +8,6 @@ cdktf.log
 .gen
 .terraform
 tsconfig.tsbuildinfo
+!eslint.config.js
 !jest.config.js
 !setup.js

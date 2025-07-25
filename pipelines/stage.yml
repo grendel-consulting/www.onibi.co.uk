@@ -2,13 +2,13 @@ version: 0.2
 
 env:
   parameter-store:
-    STAGING_AWS_ACCOUNT: '/work/onibi-site/staging'
-    TF_TOKEN_app_terraform_io: '/terraform/token'
+    STAGING_AWS_ACCOUNT: "/work/onibi-site/staging"
+    TF_TOKEN_app_terraform_io: "/terraform/token"
   variables:
-    TARGET_DIR: 'infrastructure/static-site/cdktf.out/stacks/staging'
-    WEBSITE_DIR: 'frontend/website/public'
-    TF_CLI_CONFIG_FILE: '.terraformrc'
-    TF_IN_AUTOMATION: 'true'
+    TARGET_DIR: "infrastructure/static-site/cdktf.out/stacks/staging"
+    WEBSITE_DIR: "frontend/website/dist"
+    TF_CLI_CONFIG_FILE: ".terraformrc"
+    TF_IN_AUTOMATION: "true"
   git-credential-helper: yes
 
 phases:
