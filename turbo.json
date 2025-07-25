@@ -1,22 +1,31 @@
 {
-  "$schema": "https://turborepo.org/schema.json",
+  "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["STAGING_AWS_ACCOUNT", "PRODUCTION_AWS_ACCOUNT", "CI"],
+  "ui": "tui",
   "tasks": {
     "build": {
-      "dependsOn": [
-        "lint"
-      ],
-      "outputs": [
-        "build/**"
-      ]
+      "dependsOn": ["^build", "lint", "check-types"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**"]
+    },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    },
+    "browsers": {
+      "dependsOn": ["^browsers"]
+    },
+    "ci": {
+      "dependsOn": ["build", "e2e", "synth"]
+    },
+    "e2e": {
+      "dependsOn": ["^build", "browsers"],
+      "passThroughEnv": ["PLAYWRIGHT_*"]
     },
     "lint": {},
-    "start": {},
-    "synth": {},
-    "ci": {
-      "dependsOn": [
-        "build",
-        "synth"
-      ]
-    }
+    "start": {
+      "cache": false,
+      "persistent": true
+    },
+    "synth": {}
   }
 }

@@ -19,12 +19,12 @@ Report security bugs by emailing us at
 
 We will acknowledge your email within 72 hours, and will send a more detailed
 response within a further 72 hours indicating the next steps in handling your
-report. After the initial reply to your report, we will endeavor to keep you
+report. After the initial reply to your report, we will endeavour to keep you
 informed of the progress towards a fix and full announcement, and may ask for
 additional information or guidance.
 
-Report security bugs in third-party modules should be to the person or team
-maintaining said module.
+Security bugs in third-party modules should be reported to the person or team
+maintaining the respective module.
 
 ## Disclosure Policy
 
@@ -38,13 +38,12 @@ Disclosures should be sent to [security@grendel-consulting.com][security], inclu
   reproduced; this would include the website, page or repository where the
   vulnerability can be observed
 - Optionally, the type of vulnerability and any related [OWASP category][category]
-- Relevant HTTP requests and responses, HTML snippets, screenshots or any other
-  supporting evidence. Redact any personal data before reporting
+- Relevant screenshots or any other supporting evidence. Redact any personal data before reporting
 - Proof of concept code (if available), or non-destructive exploitation details
 - The impact of the vulnerability
 - Any references or further reading that may be appropriate
 
-Our investigation process is straight-forward. We will work to:
+Our investigation process is straightforward. We will work to:
 
 - Confirm the problem and determine the affected versions.
 - Audit code to find any potential similar problems.
@@ -57,21 +56,26 @@ in this section together with things to watch out for.
 
 ### Our Security Toolchain
 
-- GitHub [Advisories](https://github.com/grendel-consulting/steampipe-plugin-kolide/security/advisories)
+- GitHub [Advisories](https://github.com/grendel-consulting/www.onibi.co.uk/security/advisories)
 - [Renovate](https://renovate.whitesourcesoftware.com/)
 - [StepSecurity](https://www.stepsecurity.io/)
 - [SocketDev](https://socket.dev/)
+- [DryRun](https://www.dryrun.security/)
+- [Aikido](https://www.aikido.dev/)
 
 ### Our Security Checklist
 
-- [ ] You MUST encode, escape and validate any inputs
-- [ ] You MUST NOT commit secrets, passwords or keys
-- [ ] You SHOULD pin any new dependencies
+We use the keywords "MUST", "MUST NOT", and "SHOULD" in this document
+as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
+- You MUST encode, escape and validate any inputs
+- You MUST NOT commit secrets, passwords or keys
+- You SHOULD pin any new dependencies
 
 ### Recommendations
 
 Prospective contributors are encouraged to familiarise themselves, if not already,
-with existing techniques and good practise.
+with existing techniques and good practice.
 
 ## Providing Feedback
 
@@ -92,6 +96,7 @@ All notable changes to this policy should be noted below. We use
 ### Version History
 
 - 1.0.0 (2024-04-10) - Initial policy and procedures
+- 1.1.0 (2025-06-27) - Clarification of checklist keywords and tooling
 
 ## Attribution
 

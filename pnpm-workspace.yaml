@@ -1,4 +1,9 @@
 packages:
-  - 'frontend/*'
-  - 'infrastructure/*'
-  - 'packages/*'
+  - "frontend/*"
+  - "infrastructure/*"
+  - "packages/*"
+  - "tooling/*"
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp

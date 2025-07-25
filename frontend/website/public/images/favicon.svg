@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+  style="shape-rendering:geometricPrecision; image-rendering:optimizeQuality"
+  width="512px" height="512px" viewBox="0 0 5400 5400"
+>
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        svg { background: rgb(0,0,0) transparent; }
+
+        .darkestBlue {fill:#104378}
+        .darkerBlue {fill:#145593}
+        .darkBlue {fill:#165EA0}
+        .strongBlue {fill:#1B70BB}
+        .brightBlue {fill:#2491EB}
+        .softBlue {fill:#6DB7F2}
+        .boneWhite {fill: #F9F6EE}
+
+        @media (prefers-color-scheme: light) {
+            .boneWhite {
+                fill: #fff;
+            }
+        }
+      ]]>
+    </style>
+  </defs>
+  <g id="Canvas" transform="translate(900,1500)">
+    <g id="Background">
+      <circle  class="boneWhite" cx="1800" cy="1200" r="2700" />
+    </g>
+    <g id="Logo">
+      <polygon class="darkestBlue" points="2432,341 3268,762 3708,0 " />
+      <polygon class="darkerBlue" points="1994,1099 2432,341 3268,762 " />
+      <polygon class="darkBlue" points="1431,610 1854,1342 2432,341 " />
+      <polygon class="darkestBlue" points="0,0 1244,333 345,598 " />
+      <polygon class="softBlue" points="1854,1974 1854,3211 1217,2108 " />
+      <polygon class="brightBlue" points="1854,1974 1854,3211 2651,1830 " />
+      <polygon class="darkBlue" points="3268,762 2425,985 2651,1830 " />
+      <polygon class="strongBlue" points="2425,985 2651,1830 1854,1974 " />
+      <polygon class="darkerBlue" points="345,598 956,418 729,1263 " />
+      <polygon class="darkBlue" points="956,418 729,1263 1443,1263 " />
+      <polygon class="strongBlue" points="729,1263 1443,1263 1217,2108 " />
+      <polygon class="brightBlue" points="1443,1263 1217,2108 1854,1974 " />
+    </g>
+  </g>
+</svg>

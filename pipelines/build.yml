@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   parameter-store:
-    STAGING_AWS_ACCOUNT: '/work/onibi-site/staging'
-    PRODUCTION_AWS_ACCOUNT: '/work/onibi-site/production'
+    STAGING_AWS_ACCOUNT: "/work/onibi-site/staging"
+    PRODUCTION_AWS_ACCOUNT: "/work/onibi-site/production"
   git-credential-helper: yes
 
 phases:
@@ -27,6 +27,6 @@ phases:
 
 artifacts:
   files:
-    - 'frontend/**/public/**/*'
-    - 'infrastructure/**/cdktf.out/**/*'
-    - 'pipelines/*.yml'
+    - "frontend/**/dist/**/*"
+    - "infrastructure/**/cdktf.out/**/*"
+    - "pipelines/*.yml"

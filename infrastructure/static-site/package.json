@@ -6,6 +6,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "main": "main.js",
   "types": "main.ts",
   "scripts": {
@@ -15,7 +16,8 @@
     "compile": "tsc --pretty",
     "watch": "tsc -w",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@cdktf/provider-aws": "21.3.0",
@@ -24,8 +26,10 @@
     "zod": "4.0.5"
   },
   "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
     "@types/jest": "30.0.0",
     "@types/node": "22.16.5",
+    "eslint": "9.31.0",
     "jest": "30.0.5",
     "s3-spa-upload": "2.1.5",
     "ts-jest": "29.4.0",

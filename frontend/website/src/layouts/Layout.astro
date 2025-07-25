@@ -1,0 +1,32 @@
+---
+import "../assets/site.css";
+const { frontmatter } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <main class="prose md:prose-lg lg:prose-xl max-w-none">
+      <slot />
+      <footer
+        class="footer sm:footer-horizontal bg-neutral text-neutral-content items-center px-4"
+      >
+        <aside class="grid-flow-row items-center">
+          <p>
+            An imprint of Grendel Consulting Limited and Path Dependence
+            Limited.
+            <br />
+            Copyright © 2016-{new Date().getFullYear()}. All right reserved
+          </p>
+        </aside>
+      </footer>
+    </main>
+  </body>
+</html>
