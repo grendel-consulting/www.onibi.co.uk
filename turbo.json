@@ -9,10 +9,10 @@
       "outputs": ["dist/**"]
     },
     "check-types": {
-      "dependsOn": ["?^check-types"]
+      "dependsOn": ["^check-types"]
     },
     "browsers": {
-      "dependsOn": ["?^browsers"]
+      "dependsOn": ["^browsers"]
     },
     "ci": {
       "dependsOn": ["build", "e2e", "synth"]
