@@ -16,7 +16,7 @@ overrides:
   array.prototype.tosorted: npm:@socketregistry/array.prototype.tosorted@^1
   arraybuffer.prototype.slice: npm:@socketregistry/arraybuffer.prototype.slice@^1
   available-typed-arrays: npm:@socketregistry/available-typed-arrays@^1
-  axios: 1.10.0
+  axios: 1.11.0
   body-parser@<1.20.3: '>=1.20.3'
   braces@<3.0.3: '>=3.0.3'
   cookie@<0.7.0: '>=0.7.0'
@@ -2369,6 +2369,10 @@ packages:
     resolution: {integrity: sha512-wUt+vohfEYTGhGZimaAriZszXePgr+EnluXHlf4rq/9OfWqxyDO00miMtgS8ENnWbfXd/Qv6vi7sZmdi+Ree2w==}
     engines: {node: '>=18.20.7'}
 
+  '@socketregistry/es-set-tostringtag@1.0.9':
+    resolution: {integrity: sha512-rLBDHYkhI3so1NSinOhIhmxQ53aG0SPht2KMfBLTNuanrfVgMQOusu+s0UkP5+lI4242yHaqYAbRyAEK820/Gg==}
+    engines: {node: '>=18'}
+
   '@socketregistry/es6-symbol@1.0.6':
     resolution: {integrity: sha512-dy75ovfOrso9ltU3D/YEfMZUfGfP/m0VLuXnnEYYtwdcFye2iilJKph/h6+TK+0/r4oRQFbEyl6XZdaDRQwdyA==}
     engines: {node: '>=18.20.7'}
@@ -3048,8 +3052,8 @@ packages:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}
     engines: {node: '>=4'}
 
-  axios@1.10.0:
-    resolution: {integrity: sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==}
+  axios@1.11.0:
+    resolution: {integrity: sha512-1Lx3WLFQWm3ooKDYZD1eXmoGO9fxYQjrycfHFC8P0sCfQVXyROp0p9PFWBehewBOdCwHc+f/b8I0fMto5eSfwA==}
 
   axobject-query@3.2.1:
     resolution: {integrity: sha512-jsyHu61e6N4Vbz/v18DHwWYKK0bSWLqn47eeDSKPB7m8tqMHF9YJ+mhIk2lVteyZrY8tnSj/jHOv4YiTCuCJgg==}
@@ -4354,8 +4358,8 @@ packages:
     resolution: {integrity: sha512-yDYSgNMraqvnxiEXO4hi88+YZxaHC6QKzb5N84iRCTDeRO7ZALpir/lVmf/uXUhnwUr2O4HU8s/n6x+yNjQkHw==}
     engines: {node: '>= 14.17'}
 
-  form-data@4.0.0:
-    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
   forwarded@0.2.0:
@@ -10535,6 +10539,8 @@ snapshots:
 
   '@socketregistry/es-iterator-helpers@1.0.12': {}
 
+  '@socketregistry/es-set-tostringtag@1.0.9': {}
+
   '@socketregistry/es6-symbol@1.0.6': {}
 
   '@socketregistry/hasown@1.0.6': {}
@@ -11225,10 +11231,10 @@ snapshots:
 
   axe-core@4.7.0: {}
 
-  axios@1.10.0(debug@4.4.0):
+  axios@1.11.0(debug@4.4.0):
     dependencies:
       follow-redirects: 1.15.6(debug@4.4.0)
-      form-data: 4.0.0
+      form-data: 4.0.4
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -12907,10 +12913,12 @@ snapshots:
 
   form-data-encoder@2.1.4: {}
 
-  form-data@4.0.0:
+  form-data@4.0.4:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
+      es-set-tostringtag: '@socketregistry/es-set-tostringtag@1.0.9'
+      hasown: '@socketregistry/hasown@1.0.6'
       mime-types: 2.1.35
 
   forwarded@0.2.0: {}
@@ -13298,7 +13306,7 @@ snapshots:
       address: 1.2.2
       anser: 2.1.1
       autoprefixer: 10.4.19(postcss@8.4.47)
-      axios: 1.10.0(debug@4.4.0)
+      axios: 1.11.0(debug@4.4.0)
       babel-jsx-utils: 1.1.0
       babel-loader: 8.3.0(@babel/core@7.27.4)(webpack@5.98.0(esbuild@0.25.8))
       babel-plugin-add-module-exports: 1.0.4
