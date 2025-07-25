@@ -9,17 +9,17 @@
       "outputs": ["dist/**"]
     },
     "check-types": {
-      "dependsOn": ["^check-types"]
+      "dependsOn": ["?^check-types"]
     },
     "browsers": {
-      "dependsOn": ["^browsers"]
+      "dependsOn": ["?^browsers"]
     },
     "ci": {
       "dependsOn": ["build", "e2e", "synth"]
     },
     "e2e": {
       "dependsOn": ["^build", "browsers"],
-      "passThroughEnv": ["PLAYWRIGHT_*"]
+      "passThroughEnv": ["PLAYWRIGHT_TEST_BASE_URL"]
     },
     "lint": {},
     "start": {

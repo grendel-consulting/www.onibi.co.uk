@@ -1,3 +1,3 @@
 # `@repo/typescript-config`
 
-Collection of internal Typescript configurations.
+Collection of internal TypeScript configurations.
