@@ -30,6 +30,7 @@ phases:
       - terraform init -input=false
       - terraform validate
       - terraform apply -input=false -auto-approve
+      - export CLOUDFRONT_DISTRIBUTION_ID=$(terraform output -raw cloudfront_distribution_id)
   post_build:
     commands:
       - bash -c 'if [ "$CODEBUILD_BUILD_SUCCEEDING" -eq 0 ]; then exit 1; fi'
@@ -40,3 +41,4 @@ phases:
       - export AWS_SECRET_ACCESS_KEY=$(jq -r .Credentials.SecretAccessKey credentials.json)
       - export AWS_SESSION_TOKEN=$(jq -r .Credentials.SessionToken credentials.json)
       - s3-spa-upload $WEBSITE_DIR $BUCKET --delete
+      - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
