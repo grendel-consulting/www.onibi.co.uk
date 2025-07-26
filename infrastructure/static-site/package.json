@@ -20,15 +20,15 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@cdktf/provider-aws": "21.3.0",
+    "@cdktf/provider-aws": "21.4.0",
     "cdktf": "0.21.0",
     "constructs": "10.4.2",
-    "zod": "4.0.5"
+    "zod": "4.0.10"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@types/jest": "30.0.0",
-    "@types/node": "22.16.5",
+    "@types/node": "24.1.0",
     "eslint": "9.32.0",
     "jest": "30.0.5",
     "s3-spa-upload": "2.1.5",
