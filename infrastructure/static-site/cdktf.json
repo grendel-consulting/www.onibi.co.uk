@@ -1,5 +1,5 @@
 {
-  "app": "pnpx ts-node main.ts",
+  "app": "pnpx tsx main.ts",
   "language": "typescript",
   "context": {
     "excludeStackIdFromLogicalIds": "true",
