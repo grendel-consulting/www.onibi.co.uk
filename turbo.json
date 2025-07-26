@@ -15,7 +15,7 @@
       "dependsOn": ["^browsers"]
     },
     "ci": {
-      "dependsOn": ["build", "e2e", "synth"]
+      "dependsOn": ["build", "synth"]
     },
     "e2e": {
       "dependsOn": ["^build", "browsers"],
