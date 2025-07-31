@@ -72,8 +72,8 @@ importers:
   infrastructure/static-site:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 21.4.0
-        version: 21.4.0(cdktf@0.21.0(constructs@10.4.2))(constructs@10.4.2)
+        specifier: 21.5.0
+        version: 21.5.0(cdktf@0.21.0(constructs@10.4.2))(constructs@10.4.2)
       cdktf:
         specifier: 0.21.0
         version: 0.21.0(constructs@10.4.2)
@@ -562,8 +562,8 @@ packages:
   '@capsizecss/unpack@2.4.0':
     resolution: {integrity: sha512-GrSU71meACqcmIUxPYOJvGKF0yryjN/L1aCuE9DViCTJI7bfkjgYDPD1zbNDcINJwSSP6UaBZY9GAbYDO7re0Q==}
 
-  '@cdktf/provider-aws@21.4.0':
-    resolution: {integrity: sha512-xPxmCMjqZ1XeNPCGYCQ4SaJzqKIsWdLZIE9K+6yLqcSJurI/mL6APtDSgFdDND8ToNzSSrGjGrB3pUwq4PPewg==}
+  '@cdktf/provider-aws@21.5.0':
+    resolution: {integrity: sha512-ZWs1r5IWmVUhshSrJ6uk1zPXcXHy8jH8oeWivyW5XgUbSv/jbm+nEbNUUrP10mQpyMxas9njMMaC7Jj4FEPkTg==}
     engines: {node: '>= 20.9.0'}
     peerDependencies:
       cdktf: ^0.21.0
@@ -5561,7 +5561,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@cdktf/provider-aws@21.4.0(cdktf@0.21.0(constructs@10.4.2))(constructs@10.4.2)':
+  '@cdktf/provider-aws@21.5.0(cdktf@0.21.0(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
       cdktf: 0.21.0(constructs@10.4.2)
       constructs: 10.4.2
