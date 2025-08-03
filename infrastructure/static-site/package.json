@@ -32,7 +32,7 @@
     "eslint": "9.32.0",
     "jest": "30.0.5",
     "s3-spa-upload": "2.1.5",
-    "ts-jest": "29.4.0",
+    "ts-jest": "29.4.1",
     "tsx": "4.20.3",
     "typescript": "5.9.2"
   }
