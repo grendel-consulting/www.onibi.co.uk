@@ -28,7 +28,7 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@types/jest": "30.0.0",
-    "@types/node": "24.1.0",
+    "@types/node": "24.2.0",
     "eslint": "9.32.0",
     "jest": "30.0.5",
     "s3-spa-upload": "2.1.5",
