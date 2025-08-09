@@ -23,7 +23,7 @@
     "@cdktf/provider-aws": "21.6.0",
     "cdktf": "0.21.0",
     "constructs": "10.4.2",
-    "zod": "4.0.15"
+    "zod": "4.0.16"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
