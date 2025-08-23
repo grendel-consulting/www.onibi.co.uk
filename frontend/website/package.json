@@ -17,7 +17,7 @@
     "@astrojs/ts-plugin": "1.10.4",
     "@repo/eslint-config": "workspace:*",
     "astro": "5.13.3",
-    "eslint": "9.33.0",
+    "eslint": "9.34.0",
     "sharp": "0.34.3",
     "typescript": "5.9.2"
   },
