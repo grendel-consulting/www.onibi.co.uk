@@ -20,7 +20,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@cdktf/provider-aws": "21.10.0",
+    "@cdktf/provider-aws": "21.10.1",
     "cdktf": "0.21.0",
     "constructs": "10.4.2",
     "zod": "4.1.5"
