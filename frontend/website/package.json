@@ -22,7 +22,7 @@
     "typescript": "5.9.2"
   },
   "dependencies": {
-    "@tailwindcss/typography": "0.5.16",
+    "@tailwindcss/typography": "0.5.18",
     "@tailwindcss/vite": "4.1.13",
     "daisyui": "5.1.13",
     "tailwindcss": "4.1.13"
