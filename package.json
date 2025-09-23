@@ -37,7 +37,6 @@
     "typescript": "5.9.2"
   },
   "packageManager": "pnpm@10.17.1",
-  "minimumReleaseAge": 2160,
   "engines": {
     "node": ">=20",
     "pnpm": ">=10"
