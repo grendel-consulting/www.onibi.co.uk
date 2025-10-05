@@ -34,6 +34,6 @@
     "s3-spa-upload": "2.1.5",
     "ts-jest": "29.4.4",
     "tsx": "4.20.6",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }
