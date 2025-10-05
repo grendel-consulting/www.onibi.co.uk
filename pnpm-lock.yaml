@@ -36,7 +36,7 @@ importers:
         version: 0.5.19(tailwindcss@4.1.14)
       '@tailwindcss/vite':
         specifier: 4.1.14
-        version: 4.1.14(vite@6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0))
+        version: 4.1.14(vite@6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0))
       daisyui:
         specifier: 5.1.26
         version: 5.1.26
@@ -49,7 +49,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2)(typescript@5.9.2)
       '@astrojs/mdx':
         specifier: 4.3.6
-        version: 4.3.6(astro@5.14.1(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0))
+        version: 4.3.6(astro@5.14.1(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0))
       '@astrojs/ts-plugin':
         specifier: 1.10.4
         version: 1.10.4
@@ -58,7 +58,7 @@ importers:
         version: link:../../packages/eslint-config
       astro:
         specifier: 5.14.1
-        version: 5.14.1(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0)
+        version: 5.14.1(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0)
       eslint:
         specifier: 9.36.0
         version: 9.36.0(jiti@2.6.1)
@@ -91,20 +91,20 @@ importers:
         specifier: 30.0.0
         version: 30.0.0
       '@types/node':
-        specifier: 24.6.1
-        version: 24.6.1
+        specifier: 24.6.2
+        version: 24.6.2
       eslint:
         specifier: 9.36.0
         version: 9.36.0(jiti@2.6.1)
       jest:
         specifier: 30.1.3
-        version: 30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))
+        version: 30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))
       s3-spa-upload:
         specifier: 2.1.5
         version: 2.1.5
       ts-jest:
         specifier: 29.4.4
-        version: 29.4.4(@babel/core@7.27.4)(@jest/transform@30.1.2)(@jest/types@30.0.5)(babel-jest@30.1.2(@babel/core@7.27.4))(jest-util@30.0.5)(jest@30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2)))(typescript@5.9.2)
+        version: 29.4.4(@babel/core@7.27.4)(@jest/transform@30.1.2)(@jest/types@30.0.5)(babel-jest@30.1.2(@babel/core@7.27.4))(jest-util@30.0.5)(jest@30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2)))(typescript@5.9.2)
       tsx:
         specifier: 4.20.5
         version: 4.20.5
@@ -156,8 +156,8 @@ importers:
         specifier: 1.55.1
         version: 1.55.1
       '@types/node':
-        specifier: 24.6.1
-        version: 24.6.1
+        specifier: 24.6.2
+        version: 24.6.2
       dotenv:
         specifier: 17.2.3
         version: 17.2.3
@@ -1719,8 +1719,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@24.6.1':
-    resolution: {integrity: sha512-ljvjjs3DNXummeIaooB4cLBKg2U6SPI6Hjra/9rRIy7CpM0HpLtG9HptkMKAb4HYWy5S7HUvJEuWgr/y0U8SHw==}
+  '@types/node@24.6.2':
+    resolution: {integrity: sha512-d2L25Y4j+W3ZlNAeMKcy7yDsK425ibcAOO2t7aPTz6gNMH0z2GThtwENCDc0d/Pw9wgyRqE5Px1wkV7naz8ang==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -4720,12 +4720,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.6(astro@5.14.1(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0))':
+  '@astrojs/mdx@4.3.6(astro@5.14.1(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.7
       '@mdx-js/mdx': 3.1.1
       acorn: 8.15.0
-      astro: 5.14.1(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0)
+      astro: 5.14.1(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -5874,13 +5874,13 @@ snapshots:
   '@jest/console@30.1.2':
     dependencies:
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       chalk: 4.1.2
       jest-message-util: 30.1.0
       jest-util: 30.0.5
       slash: 3.0.0
 
-  '@jest/core@30.1.3(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))':
+  '@jest/core@30.1.3(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))':
     dependencies:
       '@jest/console': 30.1.2
       '@jest/pattern': 30.0.1
@@ -5888,14 +5888,14 @@ snapshots:
       '@jest/test-result': 30.1.3
       '@jest/transform': 30.1.2
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       ci-info: 4.3.0
       exit-x: 0.2.2
       graceful-fs: 4.2.11
       jest-changed-files: 30.0.5
-      jest-config: 30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))
+      jest-config: 30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))
       jest-haste-map: 30.1.0
       jest-message-util: 30.1.0
       jest-regex-util: 30.0.1
@@ -5924,7 +5924,7 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 30.1.2
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       jest-mock: 30.0.5
 
   '@jest/expect-utils@30.0.0':
@@ -5946,7 +5946,7 @@ snapshots:
     dependencies:
       '@jest/types': 30.0.5
       '@sinonjs/fake-timers': 13.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       jest-message-util: 30.1.0
       jest-mock: 30.0.5
       jest-util: 30.0.5
@@ -5966,12 +5966,12 @@ snapshots:
 
   '@jest/pattern@30.0.0':
     dependencies:
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       jest-regex-util: 30.0.0
 
   '@jest/pattern@30.0.1':
     dependencies:
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       jest-regex-util: 30.0.1
 
   '@jest/reporters@30.1.3':
@@ -5982,7 +5982,7 @@ snapshots:
       '@jest/transform': 30.1.2
       '@jest/types': 30.0.5
       '@jridgewell/trace-mapping': 0.3.25
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit-x: 0.2.2
@@ -6063,7 +6063,7 @@ snapshots:
       '@jest/schemas': 30.0.0
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -6073,7 +6073,7 @@ snapshots:
       '@jest/schemas': 30.0.5
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -6665,12 +6665,12 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 4.1.14
 
-  '@tailwindcss/vite@4.1.14(vite@6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0))':
+  '@tailwindcss/vite@4.1.14(vite@6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0))':
     dependencies:
       '@tailwindcss/node': 4.1.14
       '@tailwindcss/oxide': 4.1.14
       tailwindcss: 4.1.14
-      vite: 6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)
+      vite: 6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)
 
   '@teppeis/multimaps@3.0.0': {}
 
@@ -6724,7 +6724,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
 
   '@types/hast@3.0.4':
     dependencies:
@@ -6759,7 +6759,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@24.6.1':
+  '@types/node@24.6.2':
     dependencies:
       undici-types: 7.13.0
 
@@ -7076,7 +7076,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@5.14.1(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0):
+  astro@5.14.1(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(rollup@4.45.1)(tsx@4.20.5)(typescript@5.9.2)(yaml@2.8.0):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.3
@@ -7132,8 +7132,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.17.1
       vfile: 6.0.3
-      vite: 6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)
-      vitefu: 1.1.1(vite@6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0))
+      vite: 6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)
+      vitefu: 1.1.1(vite@6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -8173,7 +8173,7 @@ snapshots:
       '@jest/expect': 30.1.2
       '@jest/test-result': 30.1.3
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       chalk: 4.1.2
       co: 4.6.0
       dedent: 1.6.0(babel-plugin-macros@3.1.0)
@@ -8193,15 +8193,15 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2)):
+  jest-cli@30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2)):
     dependencies:
-      '@jest/core': 30.1.3(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))
+      '@jest/core': 30.1.3(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))
       '@jest/test-result': 30.1.3
       '@jest/types': 30.0.5
       chalk: 4.1.2
       exit-x: 0.2.2
       import-local: 3.2.0
-      jest-config: 30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))
+      jest-config: 30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))
       jest-util: 30.0.5
       jest-validate: 30.1.0
       yargs: 17.7.2
@@ -8212,7 +8212,7 @@ snapshots:
       - supports-color
       - ts-node
 
-  jest-config@30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2)):
+  jest-config@30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2)):
     dependencies:
       '@babel/core': 7.27.4
       '@jest/get-type': 30.1.0
@@ -8239,8 +8239,8 @@ snapshots:
       slash: 3.0.0
       strip-json-comments: 3.1.1
     optionalDependencies:
-      '@types/node': 24.6.1
-      ts-node: 10.9.2(@types/node@24.6.1)(typescript@5.9.2)
+      '@types/node': 24.6.2
+      ts-node: 10.9.2(@types/node@24.6.2)(typescript@5.9.2)
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -8276,7 +8276,7 @@ snapshots:
       '@jest/environment': 30.1.2
       '@jest/fake-timers': 30.1.2
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       jest-mock: 30.0.5
       jest-util: 30.0.5
       jest-validate: 30.1.0
@@ -8284,7 +8284,7 @@ snapshots:
   jest-haste-map@30.1.0:
     dependencies:
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -8342,13 +8342,13 @@ snapshots:
   jest-mock@30.0.0:
     dependencies:
       '@jest/types': 30.0.0
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       jest-util: 30.0.0
 
   jest-mock@30.0.5:
     dependencies:
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       jest-util: 30.0.5
 
   jest-pnp-resolver@1.2.3(jest-resolve@30.1.3):
@@ -8384,7 +8384,7 @@ snapshots:
       '@jest/test-result': 30.1.3
       '@jest/transform': 30.1.2
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       chalk: 4.1.2
       emittery: 0.13.1
       exit-x: 0.2.2
@@ -8413,7 +8413,7 @@ snapshots:
       '@jest/test-result': 30.1.3
       '@jest/transform': 30.1.2
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       chalk: 4.1.2
       cjs-module-lexer: 2.1.0
       collect-v8-coverage: 1.0.2
@@ -8460,7 +8460,7 @@ snapshots:
   jest-util@30.0.0:
     dependencies:
       '@jest/types': 30.0.0
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       chalk: 4.1.2
       ci-info: 4.3.0
       graceful-fs: 4.2.11
@@ -8469,7 +8469,7 @@ snapshots:
   jest-util@30.0.5:
     dependencies:
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       chalk: 4.1.2
       ci-info: 4.3.0
       graceful-fs: 4.2.11
@@ -8488,7 +8488,7 @@ snapshots:
     dependencies:
       '@jest/test-result': 30.1.3
       '@jest/types': 30.0.5
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.13.1
@@ -8497,18 +8497,18 @@ snapshots:
 
   jest-worker@30.1.0:
     dependencies:
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       '@ungap/structured-clone': 1.3.0
       jest-util: 30.0.5
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2)):
+  jest@30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2)):
     dependencies:
-      '@jest/core': 30.1.3(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))
+      '@jest/core': 30.1.3(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))
       '@jest/types': 30.0.5
       import-local: 3.2.0
-      jest-cli: 30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))
+      jest-cli: 30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -9853,12 +9853,12 @@ snapshots:
     dependencies:
       typescript: 5.9.2
 
-  ts-jest@29.4.4(@babel/core@7.27.4)(@jest/transform@30.1.2)(@jest/types@30.0.5)(babel-jest@30.1.2(@babel/core@7.27.4))(jest-util@30.0.5)(jest@30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2)))(typescript@5.9.2):
+  ts-jest@29.4.4(@babel/core@7.27.4)(@jest/transform@30.1.2)(@jest/types@30.0.5)(babel-jest@30.1.2(@babel/core@7.27.4))(jest-util@30.0.5)(jest@30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2)))(typescript@5.9.2):
     dependencies:
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       handlebars: 4.7.8
-      jest: 30.1.3(@types/node@24.6.1)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2))
+      jest: 30.1.3(@types/node@24.6.2)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2))
       json5: 2.2.3
       lodash.memoize: 4.1.2
       make-error: 1.3.6
@@ -9873,14 +9873,14 @@ snapshots:
       babel-jest: 30.1.2(@babel/core@7.27.4)
       jest-util: 30.0.5
 
-  ts-node@10.9.2(@types/node@24.6.1)(typescript@5.9.2):
+  ts-node@10.9.2(@types/node@24.6.2)(typescript@5.9.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       acorn: 8.15.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -10125,7 +10125,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0):
+  vite@6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0):
     dependencies:
       esbuild: 0.25.8
       fdir: 6.4.6(picomatch@4.0.3)
@@ -10134,16 +10134,16 @@ snapshots:
       rollup: 4.45.1
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.6.1
+      '@types/node': 24.6.2
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.30.1
       tsx: 4.20.5
       yaml: 2.8.0
 
-  vitefu@1.1.1(vite@6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)):
+  vitefu@1.1.1(vite@6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)):
     optionalDependencies:
-      vite: 6.3.6(@types/node@24.6.1)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)
+      vite: 6.3.6(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.1)(tsx@4.20.5)(yaml@2.8.0)
 
   volar-service-css@0.0.62(@volar/language-service@2.4.20):
     dependencies:
