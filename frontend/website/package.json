@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.4",
-    "@astrojs/mdx": "4.3.6",
+    "@astrojs/mdx": "4.3.7",
     "@astrojs/ts-plugin": "1.10.4",
     "@repo/eslint-config": "workspace:*",
     "astro": "5.14.3",
