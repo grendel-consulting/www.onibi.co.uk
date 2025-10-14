@@ -16,7 +16,7 @@
     "@astrojs/mdx": "4.3.7",
     "@astrojs/ts-plugin": "1.10.4",
     "@repo/eslint-config": "workspace:*",
-    "astro": "5.14.3",
+    "astro": "5.14.4",
     "eslint": "9.37.0",
     "sharp": "0.34.4",
     "typescript": "5.9.3"
