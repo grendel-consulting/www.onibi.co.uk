@@ -10,7 +10,7 @@
     "e2e": "pnpm bddgen && pnpm playwright test --project=chromium"
   },
   "devDependencies": {
-    "@axe-core/playwright": "4.10.2",
+    "@axe-core/playwright": "4.11.0",
     "@playwright/test": "1.56.1",
     "@types/node": "24.9.1",
     "dotenv": "17.2.3",
