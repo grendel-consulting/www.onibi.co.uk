@@ -24,7 +24,7 @@
   "dependencies": {
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "4.1.15",
-    "daisyui": "5.3.7",
+    "daisyui": "5.3.8",
     "tailwindcss": "4.1.15"
   }
 }
