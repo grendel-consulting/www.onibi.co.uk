@@ -29,7 +29,7 @@
     "@repo/eslint-config": "workspace:*",
     "@types/jest": "30.0.0",
     "@types/node": "24.9.2",
-    "eslint": "9.38.0",
+    "eslint": "9.39.0",
     "jest": "30.2.0",
     "s3-spa-upload": "2.1.5",
     "ts-jest": "29.4.5",
