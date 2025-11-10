@@ -22,7 +22,7 @@
   "dependencies": {
     "@cdktf/provider-aws": "21.16.0",
     "cdktf": "0.21.0",
-    "constructs": "10.4.2",
+    "constructs": "10.4.3",
     "zod": "4.1.12"
   },
   "devDependencies": {
