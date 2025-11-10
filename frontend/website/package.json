@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "0.5.19",
-    "@tailwindcss/vite": "4.1.16",
+    "@tailwindcss/vite": "4.1.17",
     "daisyui": "5.4.4",
-    "tailwindcss": "4.1.16"
+    "tailwindcss": "4.1.17"
   }
 }
