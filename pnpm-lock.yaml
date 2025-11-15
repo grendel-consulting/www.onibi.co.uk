@@ -38,8 +38,8 @@ importers:
         specifier: 4.1.17
         version: 4.1.17(vite@6.4.1(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(tsx@4.20.6)(yaml@2.8.0))
       daisyui:
-        specifier: 5.4.7
-        version: 5.4.7
+        specifier: 5.5.0
+        version: 5.5.0
       tailwindcss:
         specifier: 4.1.17
         version: 4.1.17
@@ -2296,8 +2296,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  daisyui@5.4.7:
-    resolution: {integrity: sha512-2wYO61vTPCXk7xEBgnzLZAYoE0xS5IRLu/GSq0vORpB+cTrtubdx69NnA0loc0exvCY1s2fYL4lGZtFHe2ohNQ==}
+  daisyui@5.5.0:
+    resolution: {integrity: sha512-lfeimNM3U1FzjfBotV3iTrxNfBEncHs7kMP62lTLghmO99v7HVZ/lbcOLr/y0Q3JB6Lx7XEi2yC5RQ8BBxdKPA==}
 
   debug@4.4.1:
     resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
@@ -7445,7 +7445,7 @@ snapshots:
 
   cssesc@3.0.0: {}
 
-  daisyui@5.4.7: {}
+  daisyui@5.5.0: {}
 
   debug@4.4.1:
     dependencies:
