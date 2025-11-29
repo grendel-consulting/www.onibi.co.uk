@@ -162,8 +162,8 @@ importers:
         specifier: 17.2.3
         version: 17.2.3
       playwright-bdd:
-        specifier: 8.4.1
-        version: 8.4.1(@playwright/test@1.57.0)
+        specifier: 8.4.2
+        version: 8.4.2(@playwright/test@1.57.0)
 
 packages:
 
@@ -3481,9 +3481,9 @@ packages:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
 
-  mime-types@3.0.1:
-    resolution: {integrity: sha512-xRc4oEhT6eaBpU1XF7AjpOFD+xQmXNB5OVKwp4tqCuBpHLS/ZbBDrc07mYTDqVMg6PfxUjjNp85O6Cd2Z/5HWA==}
-    engines: {node: '>= 0.6'}
+  mime-types@3.0.2:
+    resolution: {integrity: sha512-Lbgzdk0h4juoQ9fCKXW4by0UJqj+nOOrI9MJ1sSj4nI8aI2eo1qmvQEie4VD1glsS250n15LsWsYtCugiStS5A==}
+    engines: {node: '>=18'}
 
   mimic-fn@2.1.0:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
@@ -3692,8 +3692,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  playwright-bdd@8.4.1:
-    resolution: {integrity: sha512-2KM6yHKjpfCKVv0j8lhJkSLbhgfX2yTZLPM+Q9WnnBk/1oa3bmXaHoyokX5Sby2NU/culwC6pErdQAmVfxFnAQ==}
+  playwright-bdd@8.4.2:
+    resolution: {integrity: sha512-ViugP5vj2UdDkXFao/BTVnau+tWFF9ADsuAL1+o+RUuq6sny+b+RM1CS9ekoFY+sQuHoaP1IiUwSoWyANmOE4Q==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -9196,7 +9196,7 @@ snapshots:
     dependencies:
       mime-db: 1.52.0
 
-  mime-types@3.0.1:
+  mime-types@3.0.2:
     dependencies:
       mime-db: 1.54.0
 
@@ -9391,7 +9391,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  playwright-bdd@8.4.1(@playwright/test@1.57.0):
+  playwright-bdd@8.4.2(@playwright/test@1.57.0):
     dependencies:
       '@cucumber/cucumber-expressions': 18.0.1
       '@cucumber/gherkin': 32.2.0
@@ -9404,7 +9404,7 @@ snapshots:
       cli-table3: 0.6.5
       commander: 13.1.0
       fast-glob: 3.3.3
-      mime-types: 3.0.1
+      mime-types: 3.0.2
       xmlbuilder: 15.1.1
 
   playwright-core@1.57.0: {}
