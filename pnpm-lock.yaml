@@ -72,8 +72,8 @@ importers:
   infrastructure/static-site:
     dependencies:
       '@cdktf/provider-aws':
-        specifier: 21.22.0
-        version: 21.22.0(cdktf@0.21.0(constructs@10.4.3))(constructs@10.4.3)
+        specifier: 21.22.1
+        version: 21.22.1(cdktf@0.21.0(constructs@10.4.3))(constructs@10.4.3)
       cdktf:
         specifier: 0.21.0
         version: 0.21.0(constructs@10.4.3)
@@ -574,8 +574,8 @@ packages:
     resolution: {integrity: sha512-8XqW8xGn++Eqqbz3e9wKuK7mxryeRjs4LOHLxbh2lwKeSbuNR4NFifDZT4KzvjU6HMOPbiNTsWpniK5EJfTWkg==}
     engines: {node: '>=18'}
 
-  '@cdktf/provider-aws@21.22.0':
-    resolution: {integrity: sha512-QRDIAZ9VnLtiJgeuIRhXea3OpLU9u9RLhty82e17brDheWCCDgb27DXfLasfp/0K81QHpbjc43G+TJkThtA5rA==}
+  '@cdktf/provider-aws@21.22.1':
+    resolution: {integrity: sha512-BuSHeaQFUL9l33pBzIMRT7cTQ69AM2mLtijjteCPhVQRmvuhuj9Lvfymf7knAMhYqAT6+Lrls9jiGVW/Us3zrQ==}
     engines: {node: '>= 20.9.0'}
     deprecated: See https://cdk.tf/imports for details on how to continue to use the aws provider in your CDK for Terraform (CDKTF) projects by generating the bindings locally.
     peerDependencies:
@@ -5652,7 +5652,7 @@ snapshots:
     dependencies:
       fontkit: 2.0.4
 
-  '@cdktf/provider-aws@21.22.0(cdktf@0.21.0(constructs@10.4.3))(constructs@10.4.3)':
+  '@cdktf/provider-aws@21.22.1(cdktf@0.21.0(constructs@10.4.3))(constructs@10.4.3)':
     dependencies:
       cdktf: 0.21.0(constructs@10.4.3)
       constructs: 10.4.3
