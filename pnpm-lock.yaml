@@ -90,13 +90,13 @@ importers:
     dependencies:
       '@cdktf/provider-aws':
         specifier: 21.22.1
-        version: 21.22.1(cdktf@0.21.0(constructs@10.5.1))(constructs@10.5.1)
+        version: 21.22.1(cdktf@0.21.0(constructs@10.6.0))(constructs@10.6.0)
       cdktf:
         specifier: 0.21.0
-        version: 0.21.0(constructs@10.5.1)
+        version: 0.21.0(constructs@10.6.0)
       constructs:
-        specifier: 10.5.1
-        version: 10.5.1
+        specifier: 10.6.0
+        version: 10.6.0
       zod:
         specifier: 4.3.6
         version: 4.3.6
@@ -2653,8 +2653,8 @@ packages:
   common-ancestor-path@1.0.1:
     resolution: {integrity: sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==}
 
-  constructs@10.5.1:
-    resolution: {integrity: sha512-f/TfFXiS3G/yVIXDjOQn9oTlyu9Wo7Fxyjj7lb8r92iO81jR2uST+9MstxZTmDGx/CgIbxCXkFXgupnLTNxQZg==}
+  constructs@10.6.0:
+    resolution: {integrity: sha512-TxHOnBO5zMo/G76ykzGF/wMpEHu257TbWiIxP9K0Yv/+t70UzgBQiTqjkAsWOPC6jW91DzJI0+ehQV6xDRNBuQ==}
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
@@ -5848,10 +5848,10 @@ snapshots:
     dependencies:
       fontkitten: 1.0.2
 
-  '@cdktf/provider-aws@21.22.1(cdktf@0.21.0(constructs@10.5.1))(constructs@10.5.1)':
+  '@cdktf/provider-aws@21.22.1(cdktf@0.21.0(constructs@10.6.0))(constructs@10.6.0)':
     dependencies:
-      cdktf: 0.21.0(constructs@10.5.1)
-      constructs: 10.5.1
+      cdktf: 0.21.0(constructs@10.6.0)
+      constructs: 10.6.0
 
   '@colors/colors@1.5.0':
     optional: true
@@ -7864,9 +7864,9 @@ snapshots:
 
   ccount@2.0.1: {}
 
-  cdktf@0.21.0(constructs@10.5.1):
+  cdktf@0.21.0(constructs@10.6.0):
     dependencies:
-      constructs: 10.5.1
+      constructs: 10.6.0
 
   chalk@4.1.2:
     dependencies:
@@ -7935,7 +7935,7 @@ snapshots:
 
   common-ancestor-path@1.0.1: {}
 
-  constructs@10.5.1: {}
+  constructs@10.6.0: {}
 
   convert-source-map@2.0.0: {}
 
